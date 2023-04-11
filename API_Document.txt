@@ -1,0 +1,2298 @@
+===================== appointmentbookingsystem DATA BASE ===================== 
+
+******************************** appointmentDocuments API's ******************************** 
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/DirectInsert_appointmentDocuments/'
+Method:'post'
+Data: {"appointmentDocumentId_appointmentDocuments":"","appointmentId_appointmentDocuments":"","userId_appointmentDocuments":"","documentData_appointmentDocuments":"","documentLink_appointmentDocuments":"","isActive_appointmentDocuments":"","createdTime_appointmentDocuments":"","updatedTime_appointmentDocuments":""}
+
+FieldType: [{"Type":"int(11)","fields":["appointmentDocumentId","appointmentId","userId"]},{"Type":"text","fields":["documentData","documentLink"]},{"Type":"tinyint(1)","fields":["isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["appointmentDocumentId_appointmentDocuments","appointmentId_appointmentDocuments","userId_appointmentDocuments","documentData_appointmentDocuments","isActive_appointmentDocuments"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/InsertWithParent_appointmentDocuments/'
+Method:'post'
+Data: {"appointmentDocumentId_appointmentDocuments":"","appointmentId_appointmentDocuments":"","userId_appointmentDocuments":"","documentData_appointmentDocuments":"","documentLink_appointmentDocuments":"","isActive_appointmentDocuments":"","createdTime_appointmentDocuments":"","updatedTime_appointmentDocuments":""}
+
+FieldType: [{"Type":"int(11)","fields":["appointmentDocumentId","appointmentId","userId"]},{"Type":"text","fields":["documentData","documentLink"]},{"Type":"tinyint(1)","fields":["isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["appointmentDocumentId_appointmentDocuments","appointmentId_appointmentDocuments","userId_appointmentDocuments","documentData_appointmentDocuments","isActive_appointmentDocuments"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/Upload_appointmentDocuments/'
+Method:'post'
+Data: {"appointmentDocumentId_appointmentDocuments":"","appointmentId_appointmentDocuments":"","userId_appointmentDocuments":"","documentData_appointmentDocuments":"","documentLink_appointmentDocuments":"","isActive_appointmentDocuments":"","createdTime_appointmentDocuments":"","updatedTime_appointmentDocuments":"","uploadedFiels":{"keyname":"uploadedFileName"}}
+
+FieldType: [{"Type":"int(11)","fields":["appointmentDocumentId","appointmentId","userId"]},{"Type":"text","fields":["documentData","documentLink"]},{"Type":"tinyint(1)","fields":["isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["appointmentDocumentId_appointmentDocuments","appointmentId_appointmentDocuments","userId_appointmentDocuments","documentData_appointmentDocuments","isActive_appointmentDocuments"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/UpdateFile_appointmentDocuments/'
+Method:'post'
+Data: {"appointmentDocumentId_appointmentDocuments":"","appointmentId_appointmentDocuments":"","userId_appointmentDocuments":"","documentData_appointmentDocuments":"","documentLink_appointmentDocuments":"","isActive_appointmentDocuments":"","createdTime_appointmentDocuments":"","updatedTime_appointmentDocuments":"","uploadedFiels":{"keyname":"uploadedFileName"}}
+
+FieldType: [{"Type":"int(11)","fields":["appointmentDocumentId","appointmentId","userId"]},{"Type":"text","fields":["documentData","documentLink"]},{"Type":"tinyint(1)","fields":["isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["appointmentDocumentId_appointmentDocuments","appointmentId_appointmentDocuments","userId_appointmentDocuments","documentData_appointmentDocuments","isActive_appointmentDocuments"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/Update_appointmentDocuments/'
+Method:'put'
+Data: {"appointmentDocumentId_appointmentDocuments":"","appointmentId_appointmentDocuments":"","userId_appointmentDocuments":"","documentData_appointmentDocuments":"","documentLink_appointmentDocuments":"","isActive_appointmentDocuments":"","createdTime_appointmentDocuments":"","updatedTime_appointmentDocuments":""}
+
+FieldType: [{"Type":"int(11)","fields":["appointmentDocumentId","appointmentId","userId"]},{"Type":"text","fields":["documentData","documentLink"]},{"Type":"tinyint(1)","fields":["isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["appointmentDocumentId_appointmentDocuments","appointmentId_appointmentDocuments","userId_appointmentDocuments","documentData_appointmentDocuments","isActive_appointmentDocuments"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/DeleteFile_appointmentDocuments/'
+Method:'put'
+Data: {"appointmentDocumentId_appointmentDocuments":"","appointmentId_appointmentDocuments":"","userId_appointmentDocuments":"","documentData_appointmentDocuments":"","documentLink_appointmentDocuments":"","isActive_appointmentDocuments":"","createdTime_appointmentDocuments":"","updatedTime_appointmentDocuments":""}
+
+FieldType: [{"Type":"int(11)","fields":["appointmentDocumentId","appointmentId","userId"]},{"Type":"text","fields":["documentData","documentLink"]},{"Type":"tinyint(1)","fields":["isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["appointmentDocumentId_appointmentDocuments","appointmentId_appointmentDocuments","userId_appointmentDocuments","documentData_appointmentDocuments","isActive_appointmentDocuments"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/SelectAll_appointmentDocuments/'
+Method:'get'
+Data: "Not Require"
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/SelectAllWithParent_appointmentDocuments/'
+Method:'get'
+Data: "Not Require"
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/SelectAllWithChild_appointmentDocuments/'
+Method:'get'
+Data: "Not Require"
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/SelectAllWithChildAndParent_appointmentDocuments/'
+Method:'get'
+Data: "Not Require"
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/SelectCondition_appointmentDocuments/'
+Method:'post'
+Data: {"appointmentDocumentId_appointmentDocuments":"","appointmentId_appointmentDocuments":"","userId_appointmentDocuments":"","documentData_appointmentDocuments":"","documentLink_appointmentDocuments":"","isActive_appointmentDocuments":"","createdTime_appointmentDocuments":"","updatedTime_appointmentDocuments":""}
+
+FieldType: [{"Type":"int(11)","fields":["appointmentDocumentId","appointmentId","userId"]},{"Type":"text","fields":["documentData","documentLink"]},{"Type":"tinyint(1)","fields":["isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["appointmentDocumentId_appointmentDocuments","appointmentId_appointmentDocuments","userId_appointmentDocuments","documentData_appointmentDocuments","isActive_appointmentDocuments"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/SelectConditionWithParent_appointmentDocuments/'
+Method:'post'
+Data: {"appointmentDocumentId_appointmentDocuments":"","appointmentId_appointmentDocuments":"","userId_appointmentDocuments":"","documentData_appointmentDocuments":"","documentLink_appointmentDocuments":"","isActive_appointmentDocuments":"","createdTime_appointmentDocuments":"","updatedTime_appointmentDocuments":""}
+
+FieldType: [{"Type":"int(11)","fields":["appointmentDocumentId","appointmentId","userId"]},{"Type":"text","fields":["documentData","documentLink"]},{"Type":"tinyint(1)","fields":["isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["appointmentDocumentId_appointmentDocuments","appointmentId_appointmentDocuments","userId_appointmentDocuments","documentData_appointmentDocuments","isActive_appointmentDocuments"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/SelectConditionWithChild_appointmentDocuments/'
+Method:'post'
+Data: {"appointmentDocumentId_appointmentDocuments":"","appointmentId_appointmentDocuments":"","userId_appointmentDocuments":"","documentData_appointmentDocuments":"","documentLink_appointmentDocuments":"","isActive_appointmentDocuments":"","createdTime_appointmentDocuments":"","updatedTime_appointmentDocuments":""}
+
+FieldType: [{"Type":"int(11)","fields":["appointmentDocumentId","appointmentId","userId"]},{"Type":"text","fields":["documentData","documentLink"]},{"Type":"tinyint(1)","fields":["isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["appointmentDocumentId_appointmentDocuments","appointmentId_appointmentDocuments","userId_appointmentDocuments","documentData_appointmentDocuments","isActive_appointmentDocuments"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/SelectConditionWithChildAndParent_appointmentDocuments/'
+Method:'post'
+Data: {"appointmentDocumentId_appointmentDocuments":"","appointmentId_appointmentDocuments":"","userId_appointmentDocuments":"","documentData_appointmentDocuments":"","documentLink_appointmentDocuments":"","isActive_appointmentDocuments":"","createdTime_appointmentDocuments":"","updatedTime_appointmentDocuments":""}
+
+FieldType: [{"Type":"int(11)","fields":["appointmentDocumentId","appointmentId","userId"]},{"Type":"text","fields":["documentData","documentLink"]},{"Type":"tinyint(1)","fields":["isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["appointmentDocumentId_appointmentDocuments","appointmentId_appointmentDocuments","userId_appointmentDocuments","documentData_appointmentDocuments","isActive_appointmentDocuments"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/Get_appointmentDocuments_Requirements/'
+Method:'get'
+Data: "Not Require"
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/DownloadXL_appointmentDocuments/'
+Method:'get'
+Data: "Not Require"
+
+******************************** appointments API's ******************************** 
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/DirectInsert_appointments/'
+Method:'post'
+Data: {"appointmentId_appointments":"","userSloatId_appointments":"","userId_appointments":"","appointmentNumber_appointments":"","appointmentName_appointments":"","descreption_appointments":"","isActive_appointments":"","createdTime_appointments":"","updatedTime_appointments":""}
+
+FieldType: [{"Type":"int(11)","fields":["appointmentId","userSloatId","userId"]},{"Type":"varchar(45)","fields":["appointmentNumber"]},{"Type":"varchar(100)","fields":["appointmentName"]},{"Type":"varchar(2000)","fields":["descreption"]},{"Type":"tinyint(1)","fields":["isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["appointmentId_appointments","userSloatId_appointments","userId_appointments","isActive_appointments"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/InsertWithParent_appointments/'
+Method:'post'
+Data: {"appointmentId_appointments":"","userSloatId_appointments":"","userId_appointments":"","appointmentNumber_appointments":"","appointmentName_appointments":"","descreption_appointments":"","isActive_appointments":"","createdTime_appointments":"","updatedTime_appointments":""}
+
+FieldType: [{"Type":"int(11)","fields":["appointmentId","userSloatId","userId"]},{"Type":"varchar(45)","fields":["appointmentNumber"]},{"Type":"varchar(100)","fields":["appointmentName"]},{"Type":"varchar(2000)","fields":["descreption"]},{"Type":"tinyint(1)","fields":["isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["appointmentId_appointments","userSloatId_appointments","userId_appointments","isActive_appointments"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/Upload_appointments/'
+Method:'post'
+Data: {"appointmentId_appointments":"","userSloatId_appointments":"","userId_appointments":"","appointmentNumber_appointments":"","appointmentName_appointments":"","descreption_appointments":"","isActive_appointments":"","createdTime_appointments":"","updatedTime_appointments":"","uploadedFiels":{"keyname":"uploadedFileName"}}
+
+FieldType: [{"Type":"int(11)","fields":["appointmentId","userSloatId","userId"]},{"Type":"varchar(45)","fields":["appointmentNumber"]},{"Type":"varchar(100)","fields":["appointmentName"]},{"Type":"varchar(2000)","fields":["descreption"]},{"Type":"tinyint(1)","fields":["isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["appointmentId_appointments","userSloatId_appointments","userId_appointments","isActive_appointments"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/UpdateFile_appointments/'
+Method:'post'
+Data: {"appointmentId_appointments":"","userSloatId_appointments":"","userId_appointments":"","appointmentNumber_appointments":"","appointmentName_appointments":"","descreption_appointments":"","isActive_appointments":"","createdTime_appointments":"","updatedTime_appointments":"","uploadedFiels":{"keyname":"uploadedFileName"}}
+
+FieldType: [{"Type":"int(11)","fields":["appointmentId","userSloatId","userId"]},{"Type":"varchar(45)","fields":["appointmentNumber"]},{"Type":"varchar(100)","fields":["appointmentName"]},{"Type":"varchar(2000)","fields":["descreption"]},{"Type":"tinyint(1)","fields":["isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["appointmentId_appointments","userSloatId_appointments","userId_appointments","isActive_appointments"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/Update_appointments/'
+Method:'put'
+Data: {"appointmentId_appointments":"","userSloatId_appointments":"","userId_appointments":"","appointmentNumber_appointments":"","appointmentName_appointments":"","descreption_appointments":"","isActive_appointments":"","createdTime_appointments":"","updatedTime_appointments":""}
+
+FieldType: [{"Type":"int(11)","fields":["appointmentId","userSloatId","userId"]},{"Type":"varchar(45)","fields":["appointmentNumber"]},{"Type":"varchar(100)","fields":["appointmentName"]},{"Type":"varchar(2000)","fields":["descreption"]},{"Type":"tinyint(1)","fields":["isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["appointmentId_appointments","userSloatId_appointments","userId_appointments","isActive_appointments"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/DeleteFile_appointments/'
+Method:'put'
+Data: {"appointmentId_appointments":"","userSloatId_appointments":"","userId_appointments":"","appointmentNumber_appointments":"","appointmentName_appointments":"","descreption_appointments":"","isActive_appointments":"","createdTime_appointments":"","updatedTime_appointments":""}
+
+FieldType: [{"Type":"int(11)","fields":["appointmentId","userSloatId","userId"]},{"Type":"varchar(45)","fields":["appointmentNumber"]},{"Type":"varchar(100)","fields":["appointmentName"]},{"Type":"varchar(2000)","fields":["descreption"]},{"Type":"tinyint(1)","fields":["isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["appointmentId_appointments","userSloatId_appointments","userId_appointments","isActive_appointments"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/SelectAll_appointments/'
+Method:'get'
+Data: "Not Require"
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/SelectAllWithParent_appointments/'
+Method:'get'
+Data: "Not Require"
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/SelectAllWithChild_appointments/'
+Method:'get'
+Data: "Not Require"
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/SelectAllWithChildAndParent_appointments/'
+Method:'get'
+Data: "Not Require"
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/SelectCondition_appointments/'
+Method:'post'
+Data: {"appointmentId_appointments":"","userSloatId_appointments":"","userId_appointments":"","appointmentNumber_appointments":"","appointmentName_appointments":"","descreption_appointments":"","isActive_appointments":"","createdTime_appointments":"","updatedTime_appointments":""}
+
+FieldType: [{"Type":"int(11)","fields":["appointmentId","userSloatId","userId"]},{"Type":"varchar(45)","fields":["appointmentNumber"]},{"Type":"varchar(100)","fields":["appointmentName"]},{"Type":"varchar(2000)","fields":["descreption"]},{"Type":"tinyint(1)","fields":["isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["appointmentId_appointments","userSloatId_appointments","userId_appointments","isActive_appointments"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/SelectConditionWithParent_appointments/'
+Method:'post'
+Data: {"appointmentId_appointments":"","userSloatId_appointments":"","userId_appointments":"","appointmentNumber_appointments":"","appointmentName_appointments":"","descreption_appointments":"","isActive_appointments":"","createdTime_appointments":"","updatedTime_appointments":""}
+
+FieldType: [{"Type":"int(11)","fields":["appointmentId","userSloatId","userId"]},{"Type":"varchar(45)","fields":["appointmentNumber"]},{"Type":"varchar(100)","fields":["appointmentName"]},{"Type":"varchar(2000)","fields":["descreption"]},{"Type":"tinyint(1)","fields":["isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["appointmentId_appointments","userSloatId_appointments","userId_appointments","isActive_appointments"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/SelectConditionWithChild_appointments/'
+Method:'post'
+Data: {"appointmentId_appointments":"","userSloatId_appointments":"","userId_appointments":"","appointmentNumber_appointments":"","appointmentName_appointments":"","descreption_appointments":"","isActive_appointments":"","createdTime_appointments":"","updatedTime_appointments":""}
+
+FieldType: [{"Type":"int(11)","fields":["appointmentId","userSloatId","userId"]},{"Type":"varchar(45)","fields":["appointmentNumber"]},{"Type":"varchar(100)","fields":["appointmentName"]},{"Type":"varchar(2000)","fields":["descreption"]},{"Type":"tinyint(1)","fields":["isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["appointmentId_appointments","userSloatId_appointments","userId_appointments","isActive_appointments"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/SelectConditionWithChildAndParent_appointments/'
+Method:'post'
+Data: {"appointmentId_appointments":"","userSloatId_appointments":"","userId_appointments":"","appointmentNumber_appointments":"","appointmentName_appointments":"","descreption_appointments":"","isActive_appointments":"","createdTime_appointments":"","updatedTime_appointments":""}
+
+FieldType: [{"Type":"int(11)","fields":["appointmentId","userSloatId","userId"]},{"Type":"varchar(45)","fields":["appointmentNumber"]},{"Type":"varchar(100)","fields":["appointmentName"]},{"Type":"varchar(2000)","fields":["descreption"]},{"Type":"tinyint(1)","fields":["isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["appointmentId_appointments","userSloatId_appointments","userId_appointments","isActive_appointments"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/Get_appointments_Requirements/'
+Method:'get'
+Data: "Not Require"
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/DownloadXL_appointments/'
+Method:'get'
+Data: "Not Require"
+
+******************************** departmentSubCategories API's ******************************** 
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/DirectInsert_departmentSubCategories/'
+Method:'post'
+Data: {"departmentSubCategoryId_departmentSubCategories":"","departmentId_departmentSubCategories":"","departmentSubCategory_departmentSubCategories":"","isActive_departmentSubCategories":"","createdTime_departmentSubCategories":"","updatedTime_departmentSubCategories":""}
+
+FieldType: [{"Type":"int(11)","fields":["departmentSubCategoryId","departmentId"]},{"Type":"varchar(45)","fields":["departmentSubCategory"]},{"Type":"tinyint(1)","fields":["isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["departmentSubCategoryId_departmentSubCategories","departmentId_departmentSubCategories","departmentSubCategory_departmentSubCategories","isActive_departmentSubCategories"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/InsertWithParent_departmentSubCategories/'
+Method:'post'
+Data: {"departmentSubCategoryId_departmentSubCategories":"","departmentId_departmentSubCategories":"","departmentSubCategory_departmentSubCategories":"","isActive_departmentSubCategories":"","createdTime_departmentSubCategories":"","updatedTime_departmentSubCategories":""}
+
+FieldType: [{"Type":"int(11)","fields":["departmentSubCategoryId","departmentId"]},{"Type":"varchar(45)","fields":["departmentSubCategory"]},{"Type":"tinyint(1)","fields":["isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["departmentSubCategoryId_departmentSubCategories","departmentId_departmentSubCategories","departmentSubCategory_departmentSubCategories","isActive_departmentSubCategories"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/Upload_departmentSubCategories/'
+Method:'post'
+Data: {"departmentSubCategoryId_departmentSubCategories":"","departmentId_departmentSubCategories":"","departmentSubCategory_departmentSubCategories":"","isActive_departmentSubCategories":"","createdTime_departmentSubCategories":"","updatedTime_departmentSubCategories":"","uploadedFiels":{"keyname":"uploadedFileName"}}
+
+FieldType: [{"Type":"int(11)","fields":["departmentSubCategoryId","departmentId"]},{"Type":"varchar(45)","fields":["departmentSubCategory"]},{"Type":"tinyint(1)","fields":["isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["departmentSubCategoryId_departmentSubCategories","departmentId_departmentSubCategories","departmentSubCategory_departmentSubCategories","isActive_departmentSubCategories"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/UpdateFile_departmentSubCategories/'
+Method:'post'
+Data: {"departmentSubCategoryId_departmentSubCategories":"","departmentId_departmentSubCategories":"","departmentSubCategory_departmentSubCategories":"","isActive_departmentSubCategories":"","createdTime_departmentSubCategories":"","updatedTime_departmentSubCategories":"","uploadedFiels":{"keyname":"uploadedFileName"}}
+
+FieldType: [{"Type":"int(11)","fields":["departmentSubCategoryId","departmentId"]},{"Type":"varchar(45)","fields":["departmentSubCategory"]},{"Type":"tinyint(1)","fields":["isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["departmentSubCategoryId_departmentSubCategories","departmentId_departmentSubCategories","departmentSubCategory_departmentSubCategories","isActive_departmentSubCategories"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/Update_departmentSubCategories/'
+Method:'put'
+Data: {"departmentSubCategoryId_departmentSubCategories":"","departmentId_departmentSubCategories":"","departmentSubCategory_departmentSubCategories":"","isActive_departmentSubCategories":"","createdTime_departmentSubCategories":"","updatedTime_departmentSubCategories":""}
+
+FieldType: [{"Type":"int(11)","fields":["departmentSubCategoryId","departmentId"]},{"Type":"varchar(45)","fields":["departmentSubCategory"]},{"Type":"tinyint(1)","fields":["isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["departmentSubCategoryId_departmentSubCategories","departmentId_departmentSubCategories","departmentSubCategory_departmentSubCategories","isActive_departmentSubCategories"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/DeleteFile_departmentSubCategories/'
+Method:'put'
+Data: {"departmentSubCategoryId_departmentSubCategories":"","departmentId_departmentSubCategories":"","departmentSubCategory_departmentSubCategories":"","isActive_departmentSubCategories":"","createdTime_departmentSubCategories":"","updatedTime_departmentSubCategories":""}
+
+FieldType: [{"Type":"int(11)","fields":["departmentSubCategoryId","departmentId"]},{"Type":"varchar(45)","fields":["departmentSubCategory"]},{"Type":"tinyint(1)","fields":["isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["departmentSubCategoryId_departmentSubCategories","departmentId_departmentSubCategories","departmentSubCategory_departmentSubCategories","isActive_departmentSubCategories"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/SelectAll_departmentSubCategories/'
+Method:'get'
+Data: "Not Require"
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/SelectAllWithParent_departmentSubCategories/'
+Method:'get'
+Data: "Not Require"
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/SelectAllWithChild_departmentSubCategories/'
+Method:'get'
+Data: "Not Require"
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/SelectAllWithChildAndParent_departmentSubCategories/'
+Method:'get'
+Data: "Not Require"
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/SelectCondition_departmentSubCategories/'
+Method:'post'
+Data: {"departmentSubCategoryId_departmentSubCategories":"","departmentId_departmentSubCategories":"","departmentSubCategory_departmentSubCategories":"","isActive_departmentSubCategories":"","createdTime_departmentSubCategories":"","updatedTime_departmentSubCategories":""}
+
+FieldType: [{"Type":"int(11)","fields":["departmentSubCategoryId","departmentId"]},{"Type":"varchar(45)","fields":["departmentSubCategory"]},{"Type":"tinyint(1)","fields":["isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["departmentSubCategoryId_departmentSubCategories","departmentId_departmentSubCategories","departmentSubCategory_departmentSubCategories","isActive_departmentSubCategories"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/SelectConditionWithParent_departmentSubCategories/'
+Method:'post'
+Data: {"departmentSubCategoryId_departmentSubCategories":"","departmentId_departmentSubCategories":"","departmentSubCategory_departmentSubCategories":"","isActive_departmentSubCategories":"","createdTime_departmentSubCategories":"","updatedTime_departmentSubCategories":""}
+
+FieldType: [{"Type":"int(11)","fields":["departmentSubCategoryId","departmentId"]},{"Type":"varchar(45)","fields":["departmentSubCategory"]},{"Type":"tinyint(1)","fields":["isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["departmentSubCategoryId_departmentSubCategories","departmentId_departmentSubCategories","departmentSubCategory_departmentSubCategories","isActive_departmentSubCategories"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/SelectConditionWithChild_departmentSubCategories/'
+Method:'post'
+Data: {"departmentSubCategoryId_departmentSubCategories":"","departmentId_departmentSubCategories":"","departmentSubCategory_departmentSubCategories":"","isActive_departmentSubCategories":"","createdTime_departmentSubCategories":"","updatedTime_departmentSubCategories":""}
+
+FieldType: [{"Type":"int(11)","fields":["departmentSubCategoryId","departmentId"]},{"Type":"varchar(45)","fields":["departmentSubCategory"]},{"Type":"tinyint(1)","fields":["isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["departmentSubCategoryId_departmentSubCategories","departmentId_departmentSubCategories","departmentSubCategory_departmentSubCategories","isActive_departmentSubCategories"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/SelectConditionWithChildAndParent_departmentSubCategories/'
+Method:'post'
+Data: {"departmentSubCategoryId_departmentSubCategories":"","departmentId_departmentSubCategories":"","departmentSubCategory_departmentSubCategories":"","isActive_departmentSubCategories":"","createdTime_departmentSubCategories":"","updatedTime_departmentSubCategories":""}
+
+FieldType: [{"Type":"int(11)","fields":["departmentSubCategoryId","departmentId"]},{"Type":"varchar(45)","fields":["departmentSubCategory"]},{"Type":"tinyint(1)","fields":["isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["departmentSubCategoryId_departmentSubCategories","departmentId_departmentSubCategories","departmentSubCategory_departmentSubCategories","isActive_departmentSubCategories"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/Get_departmentSubCategories_Requirements/'
+Method:'get'
+Data: "Not Require"
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/DownloadXL_departmentSubCategories/'
+Method:'get'
+Data: "Not Require"
+
+******************************** departments API's ******************************** 
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/DirectInsert_departments/'
+Method:'post'
+Data: {"departmentId_departments":"","name_departments":"","isActive_departments":"","createdTime_departments":"","updatedTime_departments":""}
+
+FieldType: [{"Type":"int(11)","fields":["departmentId"]},{"Type":"varchar(45)","fields":["name"]},{"Type":"tinyint(1)","fields":["isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["departmentId_departments","name_departments","isActive_departments"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/InsertWithParent_departments/'
+Method:'post'
+Data: {"departmentId_departments":"","name_departments":"","isActive_departments":"","createdTime_departments":"","updatedTime_departments":""}
+
+FieldType: [{"Type":"int(11)","fields":["departmentId"]},{"Type":"varchar(45)","fields":["name"]},{"Type":"tinyint(1)","fields":["isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["departmentId_departments","name_departments","isActive_departments"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/Upload_departments/'
+Method:'post'
+Data: {"departmentId_departments":"","name_departments":"","isActive_departments":"","createdTime_departments":"","updatedTime_departments":"","uploadedFiels":{"keyname":"uploadedFileName"}}
+
+FieldType: [{"Type":"int(11)","fields":["departmentId"]},{"Type":"varchar(45)","fields":["name"]},{"Type":"tinyint(1)","fields":["isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["departmentId_departments","name_departments","isActive_departments"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/UpdateFile_departments/'
+Method:'post'
+Data: {"departmentId_departments":"","name_departments":"","isActive_departments":"","createdTime_departments":"","updatedTime_departments":"","uploadedFiels":{"keyname":"uploadedFileName"}}
+
+FieldType: [{"Type":"int(11)","fields":["departmentId"]},{"Type":"varchar(45)","fields":["name"]},{"Type":"tinyint(1)","fields":["isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["departmentId_departments","name_departments","isActive_departments"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/Update_departments/'
+Method:'put'
+Data: {"departmentId_departments":"","name_departments":"","isActive_departments":"","createdTime_departments":"","updatedTime_departments":""}
+
+FieldType: [{"Type":"int(11)","fields":["departmentId"]},{"Type":"varchar(45)","fields":["name"]},{"Type":"tinyint(1)","fields":["isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["departmentId_departments","name_departments","isActive_departments"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/DeleteFile_departments/'
+Method:'put'
+Data: {"departmentId_departments":"","name_departments":"","isActive_departments":"","createdTime_departments":"","updatedTime_departments":""}
+
+FieldType: [{"Type":"int(11)","fields":["departmentId"]},{"Type":"varchar(45)","fields":["name"]},{"Type":"tinyint(1)","fields":["isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["departmentId_departments","name_departments","isActive_departments"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/SelectAll_departments/'
+Method:'get'
+Data: "Not Require"
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/SelectAllWithParent_departments/'
+Method:'get'
+Data: "Not Require"
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/SelectAllWithChild_departments/'
+Method:'get'
+Data: "Not Require"
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/SelectAllWithChildAndParent_departments/'
+Method:'get'
+Data: "Not Require"
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/SelectCondition_departments/'
+Method:'post'
+Data: {"departmentId_departments":"","name_departments":"","isActive_departments":"","createdTime_departments":"","updatedTime_departments":""}
+
+FieldType: [{"Type":"int(11)","fields":["departmentId"]},{"Type":"varchar(45)","fields":["name"]},{"Type":"tinyint(1)","fields":["isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["departmentId_departments","name_departments","isActive_departments"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/SelectConditionWithParent_departments/'
+Method:'post'
+Data: {"departmentId_departments":"","name_departments":"","isActive_departments":"","createdTime_departments":"","updatedTime_departments":""}
+
+FieldType: [{"Type":"int(11)","fields":["departmentId"]},{"Type":"varchar(45)","fields":["name"]},{"Type":"tinyint(1)","fields":["isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["departmentId_departments","name_departments","isActive_departments"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/SelectConditionWithChild_departments/'
+Method:'post'
+Data: {"departmentId_departments":"","name_departments":"","isActive_departments":"","createdTime_departments":"","updatedTime_departments":""}
+
+FieldType: [{"Type":"int(11)","fields":["departmentId"]},{"Type":"varchar(45)","fields":["name"]},{"Type":"tinyint(1)","fields":["isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["departmentId_departments","name_departments","isActive_departments"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/SelectConditionWithChildAndParent_departments/'
+Method:'post'
+Data: {"departmentId_departments":"","name_departments":"","isActive_departments":"","createdTime_departments":"","updatedTime_departments":""}
+
+FieldType: [{"Type":"int(11)","fields":["departmentId"]},{"Type":"varchar(45)","fields":["name"]},{"Type":"tinyint(1)","fields":["isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["departmentId_departments","name_departments","isActive_departments"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/Get_departments_Requirements/'
+Method:'get'
+Data: "Not Require"
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/DownloadXL_departments/'
+Method:'get'
+Data: "Not Require"
+
+******************************** organization API's ******************************** 
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/DirectInsert_organization/'
+Method:'post'
+Data: {"organizationId_organization":"","organizationTypeId_organization":"","organizationUniqueId_organization":"","organizationName_organization":"","address_organization":"","about_organization":"","mobileNumber_organization":"","email_organization":"","service_organization":"","workingHours_organization":"","state_organization":"","city_organization":"","country_organization":"","isActive_organization":"","createdTime_organization":"","updatedTime_organization":""}
+
+FieldType: [{"Type":"int(11)","fields":["organizationId","organizationTypeId"]},{"Type":"varchar(100)","fields":["organizationUniqueId","email"]},{"Type":"varchar(45)","fields":["organizationName","mobileNumber","service","workingHours","state","city","country"]},{"Type":"varchar(500)","fields":["address"]},{"Type":"text","fields":["about"]},{"Type":"tinyint(1)","fields":["isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["organizationId_organization","organizationTypeId_organization","organizationUniqueId_organization","organizationName_organization","isActive_organization"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/InsertWithParent_organization/'
+Method:'post'
+Data: {"organizationId_organization":"","organizationTypeId_organization":"","organizationUniqueId_organization":"","organizationName_organization":"","address_organization":"","about_organization":"","mobileNumber_organization":"","email_organization":"","service_organization":"","workingHours_organization":"","state_organization":"","city_organization":"","country_organization":"","isActive_organization":"","createdTime_organization":"","updatedTime_organization":""}
+
+FieldType: [{"Type":"int(11)","fields":["organizationId","organizationTypeId"]},{"Type":"varchar(100)","fields":["organizationUniqueId","email"]},{"Type":"varchar(45)","fields":["organizationName","mobileNumber","service","workingHours","state","city","country"]},{"Type":"varchar(500)","fields":["address"]},{"Type":"text","fields":["about"]},{"Type":"tinyint(1)","fields":["isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["organizationId_organization","organizationTypeId_organization","organizationUniqueId_organization","organizationName_organization","isActive_organization"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/Upload_organization/'
+Method:'post'
+Data: {"organizationId_organization":"","organizationTypeId_organization":"","organizationUniqueId_organization":"","organizationName_organization":"","address_organization":"","about_organization":"","mobileNumber_organization":"","email_organization":"","service_organization":"","workingHours_organization":"","state_organization":"","city_organization":"","country_organization":"","isActive_organization":"","createdTime_organization":"","updatedTime_organization":"","uploadedFiels":{"keyname":"uploadedFileName"}}
+
+FieldType: [{"Type":"int(11)","fields":["organizationId","organizationTypeId"]},{"Type":"varchar(100)","fields":["organizationUniqueId","email"]},{"Type":"varchar(45)","fields":["organizationName","mobileNumber","service","workingHours","state","city","country"]},{"Type":"varchar(500)","fields":["address"]},{"Type":"text","fields":["about"]},{"Type":"tinyint(1)","fields":["isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["organizationId_organization","organizationTypeId_organization","organizationUniqueId_organization","organizationName_organization","isActive_organization"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/UpdateFile_organization/'
+Method:'post'
+Data: {"organizationId_organization":"","organizationTypeId_organization":"","organizationUniqueId_organization":"","organizationName_organization":"","address_organization":"","about_organization":"","mobileNumber_organization":"","email_organization":"","service_organization":"","workingHours_organization":"","state_organization":"","city_organization":"","country_organization":"","isActive_organization":"","createdTime_organization":"","updatedTime_organization":"","uploadedFiels":{"keyname":"uploadedFileName"}}
+
+FieldType: [{"Type":"int(11)","fields":["organizationId","organizationTypeId"]},{"Type":"varchar(100)","fields":["organizationUniqueId","email"]},{"Type":"varchar(45)","fields":["organizationName","mobileNumber","service","workingHours","state","city","country"]},{"Type":"varchar(500)","fields":["address"]},{"Type":"text","fields":["about"]},{"Type":"tinyint(1)","fields":["isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["organizationId_organization","organizationTypeId_organization","organizationUniqueId_organization","organizationName_organization","isActive_organization"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/Update_organization/'
+Method:'put'
+Data: {"organizationId_organization":"","organizationTypeId_organization":"","organizationUniqueId_organization":"","organizationName_organization":"","address_organization":"","about_organization":"","mobileNumber_organization":"","email_organization":"","service_organization":"","workingHours_organization":"","state_organization":"","city_organization":"","country_organization":"","isActive_organization":"","createdTime_organization":"","updatedTime_organization":""}
+
+FieldType: [{"Type":"int(11)","fields":["organizationId","organizationTypeId"]},{"Type":"varchar(100)","fields":["organizationUniqueId","email"]},{"Type":"varchar(45)","fields":["organizationName","mobileNumber","service","workingHours","state","city","country"]},{"Type":"varchar(500)","fields":["address"]},{"Type":"text","fields":["about"]},{"Type":"tinyint(1)","fields":["isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["organizationId_organization","organizationTypeId_organization","organizationUniqueId_organization","organizationName_organization","isActive_organization"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/DeleteFile_organization/'
+Method:'put'
+Data: {"organizationId_organization":"","organizationTypeId_organization":"","organizationUniqueId_organization":"","organizationName_organization":"","address_organization":"","about_organization":"","mobileNumber_organization":"","email_organization":"","service_organization":"","workingHours_organization":"","state_organization":"","city_organization":"","country_organization":"","isActive_organization":"","createdTime_organization":"","updatedTime_organization":""}
+
+FieldType: [{"Type":"int(11)","fields":["organizationId","organizationTypeId"]},{"Type":"varchar(100)","fields":["organizationUniqueId","email"]},{"Type":"varchar(45)","fields":["organizationName","mobileNumber","service","workingHours","state","city","country"]},{"Type":"varchar(500)","fields":["address"]},{"Type":"text","fields":["about"]},{"Type":"tinyint(1)","fields":["isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["organizationId_organization","organizationTypeId_organization","organizationUniqueId_organization","organizationName_organization","isActive_organization"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/SelectAll_organization/'
+Method:'get'
+Data: "Not Require"
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/SelectAllWithParent_organization/'
+Method:'get'
+Data: "Not Require"
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/SelectAllWithChild_organization/'
+Method:'get'
+Data: "Not Require"
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/SelectAllWithChildAndParent_organization/'
+Method:'get'
+Data: "Not Require"
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/SelectCondition_organization/'
+Method:'post'
+Data: {"organizationId_organization":"","organizationTypeId_organization":"","organizationUniqueId_organization":"","organizationName_organization":"","address_organization":"","about_organization":"","mobileNumber_organization":"","email_organization":"","service_organization":"","workingHours_organization":"","state_organization":"","city_organization":"","country_organization":"","isActive_organization":"","createdTime_organization":"","updatedTime_organization":""}
+
+FieldType: [{"Type":"int(11)","fields":["organizationId","organizationTypeId"]},{"Type":"varchar(100)","fields":["organizationUniqueId","email"]},{"Type":"varchar(45)","fields":["organizationName","mobileNumber","service","workingHours","state","city","country"]},{"Type":"varchar(500)","fields":["address"]},{"Type":"text","fields":["about"]},{"Type":"tinyint(1)","fields":["isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["organizationId_organization","organizationTypeId_organization","organizationUniqueId_organization","organizationName_organization","isActive_organization"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/SelectConditionWithParent_organization/'
+Method:'post'
+Data: {"organizationId_organization":"","organizationTypeId_organization":"","organizationUniqueId_organization":"","organizationName_organization":"","address_organization":"","about_organization":"","mobileNumber_organization":"","email_organization":"","service_organization":"","workingHours_organization":"","state_organization":"","city_organization":"","country_organization":"","isActive_organization":"","createdTime_organization":"","updatedTime_organization":""}
+
+FieldType: [{"Type":"int(11)","fields":["organizationId","organizationTypeId"]},{"Type":"varchar(100)","fields":["organizationUniqueId","email"]},{"Type":"varchar(45)","fields":["organizationName","mobileNumber","service","workingHours","state","city","country"]},{"Type":"varchar(500)","fields":["address"]},{"Type":"text","fields":["about"]},{"Type":"tinyint(1)","fields":["isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["organizationId_organization","organizationTypeId_organization","organizationUniqueId_organization","organizationName_organization","isActive_organization"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/SelectConditionWithChild_organization/'
+Method:'post'
+Data: {"organizationId_organization":"","organizationTypeId_organization":"","organizationUniqueId_organization":"","organizationName_organization":"","address_organization":"","about_organization":"","mobileNumber_organization":"","email_organization":"","service_organization":"","workingHours_organization":"","state_organization":"","city_organization":"","country_organization":"","isActive_organization":"","createdTime_organization":"","updatedTime_organization":""}
+
+FieldType: [{"Type":"int(11)","fields":["organizationId","organizationTypeId"]},{"Type":"varchar(100)","fields":["organizationUniqueId","email"]},{"Type":"varchar(45)","fields":["organizationName","mobileNumber","service","workingHours","state","city","country"]},{"Type":"varchar(500)","fields":["address"]},{"Type":"text","fields":["about"]},{"Type":"tinyint(1)","fields":["isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["organizationId_organization","organizationTypeId_organization","organizationUniqueId_organization","organizationName_organization","isActive_organization"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/SelectConditionWithChildAndParent_organization/'
+Method:'post'
+Data: {"organizationId_organization":"","organizationTypeId_organization":"","organizationUniqueId_organization":"","organizationName_organization":"","address_organization":"","about_organization":"","mobileNumber_organization":"","email_organization":"","service_organization":"","workingHours_organization":"","state_organization":"","city_organization":"","country_organization":"","isActive_organization":"","createdTime_organization":"","updatedTime_organization":""}
+
+FieldType: [{"Type":"int(11)","fields":["organizationId","organizationTypeId"]},{"Type":"varchar(100)","fields":["organizationUniqueId","email"]},{"Type":"varchar(45)","fields":["organizationName","mobileNumber","service","workingHours","state","city","country"]},{"Type":"varchar(500)","fields":["address"]},{"Type":"text","fields":["about"]},{"Type":"tinyint(1)","fields":["isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["organizationId_organization","organizationTypeId_organization","organizationUniqueId_organization","organizationName_organization","isActive_organization"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/Get_organization_Requirements/'
+Method:'get'
+Data: "Not Require"
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/DownloadXL_organization/'
+Method:'get'
+Data: "Not Require"
+
+******************************** organizationType API's ******************************** 
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/DirectInsert_organizationType/'
+Method:'post'
+Data: {"organizationTypeId_organizationType":"","organizationType_organizationType":"","isActive_organizationType":"","createdTime_organizationType":"","updatedTime_organizationType":""}
+
+FieldType: [{"Type":"int(11)","fields":["organizationTypeId"]},{"Type":"varchar(45)","fields":["organizationType"]},{"Type":"tinyint(1)","fields":["isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["organizationTypeId_organizationType","isActive_organizationType"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/InsertWithParent_organizationType/'
+Method:'post'
+Data: {"organizationTypeId_organizationType":"","organizationType_organizationType":"","isActive_organizationType":"","createdTime_organizationType":"","updatedTime_organizationType":""}
+
+FieldType: [{"Type":"int(11)","fields":["organizationTypeId"]},{"Type":"varchar(45)","fields":["organizationType"]},{"Type":"tinyint(1)","fields":["isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["organizationTypeId_organizationType","isActive_organizationType"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/Upload_organizationType/'
+Method:'post'
+Data: {"organizationTypeId_organizationType":"","organizationType_organizationType":"","isActive_organizationType":"","createdTime_organizationType":"","updatedTime_organizationType":"","uploadedFiels":{"keyname":"uploadedFileName"}}
+
+FieldType: [{"Type":"int(11)","fields":["organizationTypeId"]},{"Type":"varchar(45)","fields":["organizationType"]},{"Type":"tinyint(1)","fields":["isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["organizationTypeId_organizationType","isActive_organizationType"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/UpdateFile_organizationType/'
+Method:'post'
+Data: {"organizationTypeId_organizationType":"","organizationType_organizationType":"","isActive_organizationType":"","createdTime_organizationType":"","updatedTime_organizationType":"","uploadedFiels":{"keyname":"uploadedFileName"}}
+
+FieldType: [{"Type":"int(11)","fields":["organizationTypeId"]},{"Type":"varchar(45)","fields":["organizationType"]},{"Type":"tinyint(1)","fields":["isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["organizationTypeId_organizationType","isActive_organizationType"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/Update_organizationType/'
+Method:'put'
+Data: {"organizationTypeId_organizationType":"","organizationType_organizationType":"","isActive_organizationType":"","createdTime_organizationType":"","updatedTime_organizationType":""}
+
+FieldType: [{"Type":"int(11)","fields":["organizationTypeId"]},{"Type":"varchar(45)","fields":["organizationType"]},{"Type":"tinyint(1)","fields":["isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["organizationTypeId_organizationType","isActive_organizationType"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/DeleteFile_organizationType/'
+Method:'put'
+Data: {"organizationTypeId_organizationType":"","organizationType_organizationType":"","isActive_organizationType":"","createdTime_organizationType":"","updatedTime_organizationType":""}
+
+FieldType: [{"Type":"int(11)","fields":["organizationTypeId"]},{"Type":"varchar(45)","fields":["organizationType"]},{"Type":"tinyint(1)","fields":["isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["organizationTypeId_organizationType","isActive_organizationType"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/SelectAll_organizationType/'
+Method:'get'
+Data: "Not Require"
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/SelectAllWithParent_organizationType/'
+Method:'get'
+Data: "Not Require"
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/SelectAllWithChild_organizationType/'
+Method:'get'
+Data: "Not Require"
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/SelectAllWithChildAndParent_organizationType/'
+Method:'get'
+Data: "Not Require"
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/SelectCondition_organizationType/'
+Method:'post'
+Data: {"organizationTypeId_organizationType":"","organizationType_organizationType":"","isActive_organizationType":"","createdTime_organizationType":"","updatedTime_organizationType":""}
+
+FieldType: [{"Type":"int(11)","fields":["organizationTypeId"]},{"Type":"varchar(45)","fields":["organizationType"]},{"Type":"tinyint(1)","fields":["isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["organizationTypeId_organizationType","isActive_organizationType"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/SelectConditionWithParent_organizationType/'
+Method:'post'
+Data: {"organizationTypeId_organizationType":"","organizationType_organizationType":"","isActive_organizationType":"","createdTime_organizationType":"","updatedTime_organizationType":""}
+
+FieldType: [{"Type":"int(11)","fields":["organizationTypeId"]},{"Type":"varchar(45)","fields":["organizationType"]},{"Type":"tinyint(1)","fields":["isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["organizationTypeId_organizationType","isActive_organizationType"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/SelectConditionWithChild_organizationType/'
+Method:'post'
+Data: {"organizationTypeId_organizationType":"","organizationType_organizationType":"","isActive_organizationType":"","createdTime_organizationType":"","updatedTime_organizationType":""}
+
+FieldType: [{"Type":"int(11)","fields":["organizationTypeId"]},{"Type":"varchar(45)","fields":["organizationType"]},{"Type":"tinyint(1)","fields":["isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["organizationTypeId_organizationType","isActive_organizationType"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/SelectConditionWithChildAndParent_organizationType/'
+Method:'post'
+Data: {"organizationTypeId_organizationType":"","organizationType_organizationType":"","isActive_organizationType":"","createdTime_organizationType":"","updatedTime_organizationType":""}
+
+FieldType: [{"Type":"int(11)","fields":["organizationTypeId"]},{"Type":"varchar(45)","fields":["organizationType"]},{"Type":"tinyint(1)","fields":["isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["organizationTypeId_organizationType","isActive_organizationType"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/Get_organizationType_Requirements/'
+Method:'get'
+Data: "Not Require"
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/DownloadXL_organizationType/'
+Method:'get'
+Data: "Not Require"
+
+******************************** organizationUsers API's ******************************** 
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/DirectInsert_organizationUsers/'
+Method:'post'
+Data: {"organizationUserId_organizationUsers":"","organizationId_organizationUsers":"","userId_organizationUsers":"","userRoleId_organizationUsers":"","isActive_organizationUsers":"","createdTime_organizationUsers":"","updatedTime_organizationUsers":""}
+
+FieldType: [{"Type":"int(11)","fields":["organizationUserId","organizationId","userId","userRoleId"]},{"Type":"tinyint(1)","fields":["isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["organizationUserId_organizationUsers","organizationId_organizationUsers","userId_organizationUsers","userRoleId_organizationUsers","isActive_organizationUsers"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/InsertWithParent_organizationUsers/'
+Method:'post'
+Data: {"organizationUserId_organizationUsers":"","organizationId_organizationUsers":"","userId_organizationUsers":"","userRoleId_organizationUsers":"","isActive_organizationUsers":"","createdTime_organizationUsers":"","updatedTime_organizationUsers":""}
+
+FieldType: [{"Type":"int(11)","fields":["organizationUserId","organizationId","userId","userRoleId"]},{"Type":"tinyint(1)","fields":["isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["organizationUserId_organizationUsers","organizationId_organizationUsers","userId_organizationUsers","userRoleId_organizationUsers","isActive_organizationUsers"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/Upload_organizationUsers/'
+Method:'post'
+Data: {"organizationUserId_organizationUsers":"","organizationId_organizationUsers":"","userId_organizationUsers":"","userRoleId_organizationUsers":"","isActive_organizationUsers":"","createdTime_organizationUsers":"","updatedTime_organizationUsers":"","uploadedFiels":{"keyname":"uploadedFileName"}}
+
+FieldType: [{"Type":"int(11)","fields":["organizationUserId","organizationId","userId","userRoleId"]},{"Type":"tinyint(1)","fields":["isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["organizationUserId_organizationUsers","organizationId_organizationUsers","userId_organizationUsers","userRoleId_organizationUsers","isActive_organizationUsers"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/UpdateFile_organizationUsers/'
+Method:'post'
+Data: {"organizationUserId_organizationUsers":"","organizationId_organizationUsers":"","userId_organizationUsers":"","userRoleId_organizationUsers":"","isActive_organizationUsers":"","createdTime_organizationUsers":"","updatedTime_organizationUsers":"","uploadedFiels":{"keyname":"uploadedFileName"}}
+
+FieldType: [{"Type":"int(11)","fields":["organizationUserId","organizationId","userId","userRoleId"]},{"Type":"tinyint(1)","fields":["isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["organizationUserId_organizationUsers","organizationId_organizationUsers","userId_organizationUsers","userRoleId_organizationUsers","isActive_organizationUsers"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/Update_organizationUsers/'
+Method:'put'
+Data: {"organizationUserId_organizationUsers":"","organizationId_organizationUsers":"","userId_organizationUsers":"","userRoleId_organizationUsers":"","isActive_organizationUsers":"","createdTime_organizationUsers":"","updatedTime_organizationUsers":""}
+
+FieldType: [{"Type":"int(11)","fields":["organizationUserId","organizationId","userId","userRoleId"]},{"Type":"tinyint(1)","fields":["isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["organizationUserId_organizationUsers","organizationId_organizationUsers","userId_organizationUsers","userRoleId_organizationUsers","isActive_organizationUsers"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/DeleteFile_organizationUsers/'
+Method:'put'
+Data: {"organizationUserId_organizationUsers":"","organizationId_organizationUsers":"","userId_organizationUsers":"","userRoleId_organizationUsers":"","isActive_organizationUsers":"","createdTime_organizationUsers":"","updatedTime_organizationUsers":""}
+
+FieldType: [{"Type":"int(11)","fields":["organizationUserId","organizationId","userId","userRoleId"]},{"Type":"tinyint(1)","fields":["isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["organizationUserId_organizationUsers","organizationId_organizationUsers","userId_organizationUsers","userRoleId_organizationUsers","isActive_organizationUsers"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/SelectAll_organizationUsers/'
+Method:'get'
+Data: "Not Require"
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/SelectAllWithParent_organizationUsers/'
+Method:'get'
+Data: "Not Require"
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/SelectAllWithChild_organizationUsers/'
+Method:'get'
+Data: "Not Require"
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/SelectAllWithChildAndParent_organizationUsers/'
+Method:'get'
+Data: "Not Require"
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/SelectCondition_organizationUsers/'
+Method:'post'
+Data: {"organizationUserId_organizationUsers":"","organizationId_organizationUsers":"","userId_organizationUsers":"","userRoleId_organizationUsers":"","isActive_organizationUsers":"","createdTime_organizationUsers":"","updatedTime_organizationUsers":""}
+
+FieldType: [{"Type":"int(11)","fields":["organizationUserId","organizationId","userId","userRoleId"]},{"Type":"tinyint(1)","fields":["isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["organizationUserId_organizationUsers","organizationId_organizationUsers","userId_organizationUsers","userRoleId_organizationUsers","isActive_organizationUsers"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/SelectConditionWithParent_organizationUsers/'
+Method:'post'
+Data: {"organizationUserId_organizationUsers":"","organizationId_organizationUsers":"","userId_organizationUsers":"","userRoleId_organizationUsers":"","isActive_organizationUsers":"","createdTime_organizationUsers":"","updatedTime_organizationUsers":""}
+
+FieldType: [{"Type":"int(11)","fields":["organizationUserId","organizationId","userId","userRoleId"]},{"Type":"tinyint(1)","fields":["isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["organizationUserId_organizationUsers","organizationId_organizationUsers","userId_organizationUsers","userRoleId_organizationUsers","isActive_organizationUsers"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/SelectConditionWithChild_organizationUsers/'
+Method:'post'
+Data: {"organizationUserId_organizationUsers":"","organizationId_organizationUsers":"","userId_organizationUsers":"","userRoleId_organizationUsers":"","isActive_organizationUsers":"","createdTime_organizationUsers":"","updatedTime_organizationUsers":""}
+
+FieldType: [{"Type":"int(11)","fields":["organizationUserId","organizationId","userId","userRoleId"]},{"Type":"tinyint(1)","fields":["isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["organizationUserId_organizationUsers","organizationId_organizationUsers","userId_organizationUsers","userRoleId_organizationUsers","isActive_organizationUsers"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/SelectConditionWithChildAndParent_organizationUsers/'
+Method:'post'
+Data: {"organizationUserId_organizationUsers":"","organizationId_organizationUsers":"","userId_organizationUsers":"","userRoleId_organizationUsers":"","isActive_organizationUsers":"","createdTime_organizationUsers":"","updatedTime_organizationUsers":""}
+
+FieldType: [{"Type":"int(11)","fields":["organizationUserId","organizationId","userId","userRoleId"]},{"Type":"tinyint(1)","fields":["isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["organizationUserId_organizationUsers","organizationId_organizationUsers","userId_organizationUsers","userRoleId_organizationUsers","isActive_organizationUsers"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/Get_organizationUsers_Requirements/'
+Method:'get'
+Data: "Not Require"
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/DownloadXL_organizationUsers/'
+Method:'get'
+Data: "Not Require"
+
+******************************** staticPages API's ******************************** 
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/DirectInsert_staticPages/'
+Method:'post'
+Data: {"staticPageId_staticPages":"","name_staticPages":"","data_staticPages":"","isActive_staticPages":"","createdTime_staticPages":"","updatedTime_staticPages":""}
+
+FieldType: [{"Type":"int(11)","fields":["staticPageId"]},{"Type":"varchar(45)","fields":["name"]},{"Type":"text","fields":["data"]},{"Type":"tinyint(1)","fields":["isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["staticPageId_staticPages","name_staticPages","isActive_staticPages"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/InsertWithParent_staticPages/'
+Method:'post'
+Data: {"staticPageId_staticPages":"","name_staticPages":"","data_staticPages":"","isActive_staticPages":"","createdTime_staticPages":"","updatedTime_staticPages":""}
+
+FieldType: [{"Type":"int(11)","fields":["staticPageId"]},{"Type":"varchar(45)","fields":["name"]},{"Type":"text","fields":["data"]},{"Type":"tinyint(1)","fields":["isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["staticPageId_staticPages","name_staticPages","isActive_staticPages"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/Upload_staticPages/'
+Method:'post'
+Data: {"staticPageId_staticPages":"","name_staticPages":"","data_staticPages":"","isActive_staticPages":"","createdTime_staticPages":"","updatedTime_staticPages":"","uploadedFiels":{"keyname":"uploadedFileName"}}
+
+FieldType: [{"Type":"int(11)","fields":["staticPageId"]},{"Type":"varchar(45)","fields":["name"]},{"Type":"text","fields":["data"]},{"Type":"tinyint(1)","fields":["isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["staticPageId_staticPages","name_staticPages","isActive_staticPages"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/UpdateFile_staticPages/'
+Method:'post'
+Data: {"staticPageId_staticPages":"","name_staticPages":"","data_staticPages":"","isActive_staticPages":"","createdTime_staticPages":"","updatedTime_staticPages":"","uploadedFiels":{"keyname":"uploadedFileName"}}
+
+FieldType: [{"Type":"int(11)","fields":["staticPageId"]},{"Type":"varchar(45)","fields":["name"]},{"Type":"text","fields":["data"]},{"Type":"tinyint(1)","fields":["isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["staticPageId_staticPages","name_staticPages","isActive_staticPages"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/Update_staticPages/'
+Method:'put'
+Data: {"staticPageId_staticPages":"","name_staticPages":"","data_staticPages":"","isActive_staticPages":"","createdTime_staticPages":"","updatedTime_staticPages":""}
+
+FieldType: [{"Type":"int(11)","fields":["staticPageId"]},{"Type":"varchar(45)","fields":["name"]},{"Type":"text","fields":["data"]},{"Type":"tinyint(1)","fields":["isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["staticPageId_staticPages","name_staticPages","isActive_staticPages"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/DeleteFile_staticPages/'
+Method:'put'
+Data: {"staticPageId_staticPages":"","name_staticPages":"","data_staticPages":"","isActive_staticPages":"","createdTime_staticPages":"","updatedTime_staticPages":""}
+
+FieldType: [{"Type":"int(11)","fields":["staticPageId"]},{"Type":"varchar(45)","fields":["name"]},{"Type":"text","fields":["data"]},{"Type":"tinyint(1)","fields":["isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["staticPageId_staticPages","name_staticPages","isActive_staticPages"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/SelectAll_staticPages/'
+Method:'get'
+Data: "Not Require"
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/SelectAllWithParent_staticPages/'
+Method:'get'
+Data: "Not Require"
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/SelectAllWithChild_staticPages/'
+Method:'get'
+Data: "Not Require"
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/SelectAllWithChildAndParent_staticPages/'
+Method:'get'
+Data: "Not Require"
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/SelectCondition_staticPages/'
+Method:'post'
+Data: {"staticPageId_staticPages":"","name_staticPages":"","data_staticPages":"","isActive_staticPages":"","createdTime_staticPages":"","updatedTime_staticPages":""}
+
+FieldType: [{"Type":"int(11)","fields":["staticPageId"]},{"Type":"varchar(45)","fields":["name"]},{"Type":"text","fields":["data"]},{"Type":"tinyint(1)","fields":["isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["staticPageId_staticPages","name_staticPages","isActive_staticPages"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/SelectConditionWithParent_staticPages/'
+Method:'post'
+Data: {"staticPageId_staticPages":"","name_staticPages":"","data_staticPages":"","isActive_staticPages":"","createdTime_staticPages":"","updatedTime_staticPages":""}
+
+FieldType: [{"Type":"int(11)","fields":["staticPageId"]},{"Type":"varchar(45)","fields":["name"]},{"Type":"text","fields":["data"]},{"Type":"tinyint(1)","fields":["isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["staticPageId_staticPages","name_staticPages","isActive_staticPages"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/SelectConditionWithChild_staticPages/'
+Method:'post'
+Data: {"staticPageId_staticPages":"","name_staticPages":"","data_staticPages":"","isActive_staticPages":"","createdTime_staticPages":"","updatedTime_staticPages":""}
+
+FieldType: [{"Type":"int(11)","fields":["staticPageId"]},{"Type":"varchar(45)","fields":["name"]},{"Type":"text","fields":["data"]},{"Type":"tinyint(1)","fields":["isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["staticPageId_staticPages","name_staticPages","isActive_staticPages"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/SelectConditionWithChildAndParent_staticPages/'
+Method:'post'
+Data: {"staticPageId_staticPages":"","name_staticPages":"","data_staticPages":"","isActive_staticPages":"","createdTime_staticPages":"","updatedTime_staticPages":""}
+
+FieldType: [{"Type":"int(11)","fields":["staticPageId"]},{"Type":"varchar(45)","fields":["name"]},{"Type":"text","fields":["data"]},{"Type":"tinyint(1)","fields":["isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["staticPageId_staticPages","name_staticPages","isActive_staticPages"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/Get_staticPages_Requirements/'
+Method:'get'
+Data: "Not Require"
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/DownloadXL_staticPages/'
+Method:'get'
+Data: "Not Require"
+
+******************************** userInformation API's ******************************** 
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/DirectInsert_userInformation/'
+Method:'post'
+Data: {"userInformationId_userInformation":"","departmentId_userInformation":"","departmentSubCategoryId_userInformation":"","userId_userInformation":"","fullName_userInformation":"","age_userInformation":"","gender_userInformation":"","address_userInformation":"","city_userInformation":"","state_userInformation":"","country_userInformation":"","personalDetails_userInformation":"","professionalDetails_userInformation":"","isActive_userInformation":"","createdTime_userInformation":"","updatedTime_userInformation":""}
+
+FieldType: [{"Type":"int(11)","fields":["userInformationId","departmentId","departmentSubCategoryId","userId"]},{"Type":"varchar(60)","fields":["fullName"]},{"Type":"varchar(45)","fields":["age","gender","city","state","country"]},{"Type":"varchar(500)","fields":["address"]},{"Type":"text","fields":["personalDetails","professionalDetails"]},{"Type":"tinyint(1)","fields":["isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["userInformationId_userInformation","departmentId_userInformation","userId_userInformation","isActive_userInformation"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/InsertWithParent_userInformation/'
+Method:'post'
+Data: {"userInformationId_userInformation":"","departmentId_userInformation":"","departmentSubCategoryId_userInformation":"","userId_userInformation":"","fullName_userInformation":"","age_userInformation":"","gender_userInformation":"","address_userInformation":"","city_userInformation":"","state_userInformation":"","country_userInformation":"","personalDetails_userInformation":"","professionalDetails_userInformation":"","isActive_userInformation":"","createdTime_userInformation":"","updatedTime_userInformation":""}
+
+FieldType: [{"Type":"int(11)","fields":["userInformationId","departmentId","departmentSubCategoryId","userId"]},{"Type":"varchar(60)","fields":["fullName"]},{"Type":"varchar(45)","fields":["age","gender","city","state","country"]},{"Type":"varchar(500)","fields":["address"]},{"Type":"text","fields":["personalDetails","professionalDetails"]},{"Type":"tinyint(1)","fields":["isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["userInformationId_userInformation","departmentId_userInformation","userId_userInformation","isActive_userInformation"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/Upload_userInformation/'
+Method:'post'
+Data: {"userInformationId_userInformation":"","departmentId_userInformation":"","departmentSubCategoryId_userInformation":"","userId_userInformation":"","fullName_userInformation":"","age_userInformation":"","gender_userInformation":"","address_userInformation":"","city_userInformation":"","state_userInformation":"","country_userInformation":"","personalDetails_userInformation":"","professionalDetails_userInformation":"","isActive_userInformation":"","createdTime_userInformation":"","updatedTime_userInformation":"","uploadedFiels":{"keyname":"uploadedFileName"}}
+
+FieldType: [{"Type":"int(11)","fields":["userInformationId","departmentId","departmentSubCategoryId","userId"]},{"Type":"varchar(60)","fields":["fullName"]},{"Type":"varchar(45)","fields":["age","gender","city","state","country"]},{"Type":"varchar(500)","fields":["address"]},{"Type":"text","fields":["personalDetails","professionalDetails"]},{"Type":"tinyint(1)","fields":["isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["userInformationId_userInformation","departmentId_userInformation","userId_userInformation","isActive_userInformation"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/UpdateFile_userInformation/'
+Method:'post'
+Data: {"userInformationId_userInformation":"","departmentId_userInformation":"","departmentSubCategoryId_userInformation":"","userId_userInformation":"","fullName_userInformation":"","age_userInformation":"","gender_userInformation":"","address_userInformation":"","city_userInformation":"","state_userInformation":"","country_userInformation":"","personalDetails_userInformation":"","professionalDetails_userInformation":"","isActive_userInformation":"","createdTime_userInformation":"","updatedTime_userInformation":"","uploadedFiels":{"keyname":"uploadedFileName"}}
+
+FieldType: [{"Type":"int(11)","fields":["userInformationId","departmentId","departmentSubCategoryId","userId"]},{"Type":"varchar(60)","fields":["fullName"]},{"Type":"varchar(45)","fields":["age","gender","city","state","country"]},{"Type":"varchar(500)","fields":["address"]},{"Type":"text","fields":["personalDetails","professionalDetails"]},{"Type":"tinyint(1)","fields":["isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["userInformationId_userInformation","departmentId_userInformation","userId_userInformation","isActive_userInformation"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/Update_userInformation/'
+Method:'put'
+Data: {"userInformationId_userInformation":"","departmentId_userInformation":"","departmentSubCategoryId_userInformation":"","userId_userInformation":"","fullName_userInformation":"","age_userInformation":"","gender_userInformation":"","address_userInformation":"","city_userInformation":"","state_userInformation":"","country_userInformation":"","personalDetails_userInformation":"","professionalDetails_userInformation":"","isActive_userInformation":"","createdTime_userInformation":"","updatedTime_userInformation":""}
+
+FieldType: [{"Type":"int(11)","fields":["userInformationId","departmentId","departmentSubCategoryId","userId"]},{"Type":"varchar(60)","fields":["fullName"]},{"Type":"varchar(45)","fields":["age","gender","city","state","country"]},{"Type":"varchar(500)","fields":["address"]},{"Type":"text","fields":["personalDetails","professionalDetails"]},{"Type":"tinyint(1)","fields":["isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["userInformationId_userInformation","departmentId_userInformation","userId_userInformation","isActive_userInformation"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/DeleteFile_userInformation/'
+Method:'put'
+Data: {"userInformationId_userInformation":"","departmentId_userInformation":"","departmentSubCategoryId_userInformation":"","userId_userInformation":"","fullName_userInformation":"","age_userInformation":"","gender_userInformation":"","address_userInformation":"","city_userInformation":"","state_userInformation":"","country_userInformation":"","personalDetails_userInformation":"","professionalDetails_userInformation":"","isActive_userInformation":"","createdTime_userInformation":"","updatedTime_userInformation":""}
+
+FieldType: [{"Type":"int(11)","fields":["userInformationId","departmentId","departmentSubCategoryId","userId"]},{"Type":"varchar(60)","fields":["fullName"]},{"Type":"varchar(45)","fields":["age","gender","city","state","country"]},{"Type":"varchar(500)","fields":["address"]},{"Type":"text","fields":["personalDetails","professionalDetails"]},{"Type":"tinyint(1)","fields":["isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["userInformationId_userInformation","departmentId_userInformation","userId_userInformation","isActive_userInformation"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/SelectAll_userInformation/'
+Method:'get'
+Data: "Not Require"
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/SelectAllWithParent_userInformation/'
+Method:'get'
+Data: "Not Require"
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/SelectAllWithChild_userInformation/'
+Method:'get'
+Data: "Not Require"
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/SelectAllWithChildAndParent_userInformation/'
+Method:'get'
+Data: "Not Require"
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/SelectCondition_userInformation/'
+Method:'post'
+Data: {"userInformationId_userInformation":"","departmentId_userInformation":"","departmentSubCategoryId_userInformation":"","userId_userInformation":"","fullName_userInformation":"","age_userInformation":"","gender_userInformation":"","address_userInformation":"","city_userInformation":"","state_userInformation":"","country_userInformation":"","personalDetails_userInformation":"","professionalDetails_userInformation":"","isActive_userInformation":"","createdTime_userInformation":"","updatedTime_userInformation":""}
+
+FieldType: [{"Type":"int(11)","fields":["userInformationId","departmentId","departmentSubCategoryId","userId"]},{"Type":"varchar(60)","fields":["fullName"]},{"Type":"varchar(45)","fields":["age","gender","city","state","country"]},{"Type":"varchar(500)","fields":["address"]},{"Type":"text","fields":["personalDetails","professionalDetails"]},{"Type":"tinyint(1)","fields":["isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["userInformationId_userInformation","departmentId_userInformation","userId_userInformation","isActive_userInformation"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/SelectConditionWithParent_userInformation/'
+Method:'post'
+Data: {"userInformationId_userInformation":"","departmentId_userInformation":"","departmentSubCategoryId_userInformation":"","userId_userInformation":"","fullName_userInformation":"","age_userInformation":"","gender_userInformation":"","address_userInformation":"","city_userInformation":"","state_userInformation":"","country_userInformation":"","personalDetails_userInformation":"","professionalDetails_userInformation":"","isActive_userInformation":"","createdTime_userInformation":"","updatedTime_userInformation":""}
+
+FieldType: [{"Type":"int(11)","fields":["userInformationId","departmentId","departmentSubCategoryId","userId"]},{"Type":"varchar(60)","fields":["fullName"]},{"Type":"varchar(45)","fields":["age","gender","city","state","country"]},{"Type":"varchar(500)","fields":["address"]},{"Type":"text","fields":["personalDetails","professionalDetails"]},{"Type":"tinyint(1)","fields":["isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["userInformationId_userInformation","departmentId_userInformation","userId_userInformation","isActive_userInformation"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/SelectConditionWithChild_userInformation/'
+Method:'post'
+Data: {"userInformationId_userInformation":"","departmentId_userInformation":"","departmentSubCategoryId_userInformation":"","userId_userInformation":"","fullName_userInformation":"","age_userInformation":"","gender_userInformation":"","address_userInformation":"","city_userInformation":"","state_userInformation":"","country_userInformation":"","personalDetails_userInformation":"","professionalDetails_userInformation":"","isActive_userInformation":"","createdTime_userInformation":"","updatedTime_userInformation":""}
+
+FieldType: [{"Type":"int(11)","fields":["userInformationId","departmentId","departmentSubCategoryId","userId"]},{"Type":"varchar(60)","fields":["fullName"]},{"Type":"varchar(45)","fields":["age","gender","city","state","country"]},{"Type":"varchar(500)","fields":["address"]},{"Type":"text","fields":["personalDetails","professionalDetails"]},{"Type":"tinyint(1)","fields":["isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["userInformationId_userInformation","departmentId_userInformation","userId_userInformation","isActive_userInformation"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/SelectConditionWithChildAndParent_userInformation/'
+Method:'post'
+Data: {"userInformationId_userInformation":"","departmentId_userInformation":"","departmentSubCategoryId_userInformation":"","userId_userInformation":"","fullName_userInformation":"","age_userInformation":"","gender_userInformation":"","address_userInformation":"","city_userInformation":"","state_userInformation":"","country_userInformation":"","personalDetails_userInformation":"","professionalDetails_userInformation":"","isActive_userInformation":"","createdTime_userInformation":"","updatedTime_userInformation":""}
+
+FieldType: [{"Type":"int(11)","fields":["userInformationId","departmentId","departmentSubCategoryId","userId"]},{"Type":"varchar(60)","fields":["fullName"]},{"Type":"varchar(45)","fields":["age","gender","city","state","country"]},{"Type":"varchar(500)","fields":["address"]},{"Type":"text","fields":["personalDetails","professionalDetails"]},{"Type":"tinyint(1)","fields":["isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["userInformationId_userInformation","departmentId_userInformation","userId_userInformation","isActive_userInformation"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/Get_userInformation_Requirements/'
+Method:'get'
+Data: "Not Require"
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/DownloadXL_userInformation/'
+Method:'get'
+Data: "Not Require"
+
+******************************** userRole API's ******************************** 
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/DirectInsert_userRole/'
+Method:'post'
+Data: {"userRoleId_userRole":"","userRole_userRole":"","isActive_userRole":"","createdTime_userRole":"","updatedTime_userRole":""}
+
+FieldType: [{"Type":"int(11)","fields":["userRoleId"]},{"Type":"varchar(45)","fields":["userRole"]},{"Type":"tinyint(1)","fields":["isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["userRoleId_userRole","userRole_userRole","isActive_userRole"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/InsertWithParent_userRole/'
+Method:'post'
+Data: {"userRoleId_userRole":"","userRole_userRole":"","isActive_userRole":"","createdTime_userRole":"","updatedTime_userRole":""}
+
+FieldType: [{"Type":"int(11)","fields":["userRoleId"]},{"Type":"varchar(45)","fields":["userRole"]},{"Type":"tinyint(1)","fields":["isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["userRoleId_userRole","userRole_userRole","isActive_userRole"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/Upload_userRole/'
+Method:'post'
+Data: {"userRoleId_userRole":"","userRole_userRole":"","isActive_userRole":"","createdTime_userRole":"","updatedTime_userRole":"","uploadedFiels":{"keyname":"uploadedFileName"}}
+
+FieldType: [{"Type":"int(11)","fields":["userRoleId"]},{"Type":"varchar(45)","fields":["userRole"]},{"Type":"tinyint(1)","fields":["isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["userRoleId_userRole","userRole_userRole","isActive_userRole"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/UpdateFile_userRole/'
+Method:'post'
+Data: {"userRoleId_userRole":"","userRole_userRole":"","isActive_userRole":"","createdTime_userRole":"","updatedTime_userRole":"","uploadedFiels":{"keyname":"uploadedFileName"}}
+
+FieldType: [{"Type":"int(11)","fields":["userRoleId"]},{"Type":"varchar(45)","fields":["userRole"]},{"Type":"tinyint(1)","fields":["isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["userRoleId_userRole","userRole_userRole","isActive_userRole"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/Update_userRole/'
+Method:'put'
+Data: {"userRoleId_userRole":"","userRole_userRole":"","isActive_userRole":"","createdTime_userRole":"","updatedTime_userRole":""}
+
+FieldType: [{"Type":"int(11)","fields":["userRoleId"]},{"Type":"varchar(45)","fields":["userRole"]},{"Type":"tinyint(1)","fields":["isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["userRoleId_userRole","userRole_userRole","isActive_userRole"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/DeleteFile_userRole/'
+Method:'put'
+Data: {"userRoleId_userRole":"","userRole_userRole":"","isActive_userRole":"","createdTime_userRole":"","updatedTime_userRole":""}
+
+FieldType: [{"Type":"int(11)","fields":["userRoleId"]},{"Type":"varchar(45)","fields":["userRole"]},{"Type":"tinyint(1)","fields":["isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["userRoleId_userRole","userRole_userRole","isActive_userRole"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/SelectAll_userRole/'
+Method:'get'
+Data: "Not Require"
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/SelectAllWithParent_userRole/'
+Method:'get'
+Data: "Not Require"
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/SelectAllWithChild_userRole/'
+Method:'get'
+Data: "Not Require"
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/SelectAllWithChildAndParent_userRole/'
+Method:'get'
+Data: "Not Require"
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/SelectCondition_userRole/'
+Method:'post'
+Data: {"userRoleId_userRole":"","userRole_userRole":"","isActive_userRole":"","createdTime_userRole":"","updatedTime_userRole":""}
+
+FieldType: [{"Type":"int(11)","fields":["userRoleId"]},{"Type":"varchar(45)","fields":["userRole"]},{"Type":"tinyint(1)","fields":["isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["userRoleId_userRole","userRole_userRole","isActive_userRole"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/SelectConditionWithParent_userRole/'
+Method:'post'
+Data: {"userRoleId_userRole":"","userRole_userRole":"","isActive_userRole":"","createdTime_userRole":"","updatedTime_userRole":""}
+
+FieldType: [{"Type":"int(11)","fields":["userRoleId"]},{"Type":"varchar(45)","fields":["userRole"]},{"Type":"tinyint(1)","fields":["isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["userRoleId_userRole","userRole_userRole","isActive_userRole"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/SelectConditionWithChild_userRole/'
+Method:'post'
+Data: {"userRoleId_userRole":"","userRole_userRole":"","isActive_userRole":"","createdTime_userRole":"","updatedTime_userRole":""}
+
+FieldType: [{"Type":"int(11)","fields":["userRoleId"]},{"Type":"varchar(45)","fields":["userRole"]},{"Type":"tinyint(1)","fields":["isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["userRoleId_userRole","userRole_userRole","isActive_userRole"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/SelectConditionWithChildAndParent_userRole/'
+Method:'post'
+Data: {"userRoleId_userRole":"","userRole_userRole":"","isActive_userRole":"","createdTime_userRole":"","updatedTime_userRole":""}
+
+FieldType: [{"Type":"int(11)","fields":["userRoleId"]},{"Type":"varchar(45)","fields":["userRole"]},{"Type":"tinyint(1)","fields":["isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["userRoleId_userRole","userRole_userRole","isActive_userRole"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/Get_userRole_Requirements/'
+Method:'get'
+Data: "Not Require"
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/DownloadXL_userRole/'
+Method:'get'
+Data: "Not Require"
+
+******************************** userSlots API's ******************************** 
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/DirectInsert_userSlots/'
+Method:'post'
+Data: {"userSlotId_userSlots":"","userId_userSlots":"","fee_userSlots":"","name_userSlots":"","date_userSlots":"","time_userSlots":"","maxAllocation_userSlots":"","availableAllocation_userSlots":"","isActive_userSlots":"","createdTime_userSlots":"","updatedTime_userSlots":""}
+
+FieldType: [{"Type":"int(11)","fields":["userSlotId","userId","fee","maxAllocation","availableAllocation"]},{"Type":"varchar(45)","fields":["name"]},{"Type":"datetime","fields":["date","createdTime","updatedTime"]},{"Type":"time","fields":["time"]},{"Type":"tinyint(1)","fields":["isActive"]}]
+
+NotNullFields: ["userSlotId_userSlots","userId_userSlots","fee_userSlots","date_userSlots","time_userSlots","maxAllocation_userSlots","availableAllocation_userSlots","isActive_userSlots"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/InsertWithParent_userSlots/'
+Method:'post'
+Data: {"userSlotId_userSlots":"","userId_userSlots":"","fee_userSlots":"","name_userSlots":"","date_userSlots":"","time_userSlots":"","maxAllocation_userSlots":"","availableAllocation_userSlots":"","isActive_userSlots":"","createdTime_userSlots":"","updatedTime_userSlots":""}
+
+FieldType: [{"Type":"int(11)","fields":["userSlotId","userId","fee","maxAllocation","availableAllocation"]},{"Type":"varchar(45)","fields":["name"]},{"Type":"datetime","fields":["date","createdTime","updatedTime"]},{"Type":"time","fields":["time"]},{"Type":"tinyint(1)","fields":["isActive"]}]
+
+NotNullFields: ["userSlotId_userSlots","userId_userSlots","fee_userSlots","date_userSlots","time_userSlots","maxAllocation_userSlots","availableAllocation_userSlots","isActive_userSlots"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/Upload_userSlots/'
+Method:'post'
+Data: {"userSlotId_userSlots":"","userId_userSlots":"","fee_userSlots":"","name_userSlots":"","date_userSlots":"","time_userSlots":"","maxAllocation_userSlots":"","availableAllocation_userSlots":"","isActive_userSlots":"","createdTime_userSlots":"","updatedTime_userSlots":"","uploadedFiels":{"keyname":"uploadedFileName"}}
+
+FieldType: [{"Type":"int(11)","fields":["userSlotId","userId","fee","maxAllocation","availableAllocation"]},{"Type":"varchar(45)","fields":["name"]},{"Type":"datetime","fields":["date","createdTime","updatedTime"]},{"Type":"time","fields":["time"]},{"Type":"tinyint(1)","fields":["isActive"]}]
+
+NotNullFields: ["userSlotId_userSlots","userId_userSlots","fee_userSlots","date_userSlots","time_userSlots","maxAllocation_userSlots","availableAllocation_userSlots","isActive_userSlots"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/UpdateFile_userSlots/'
+Method:'post'
+Data: {"userSlotId_userSlots":"","userId_userSlots":"","fee_userSlots":"","name_userSlots":"","date_userSlots":"","time_userSlots":"","maxAllocation_userSlots":"","availableAllocation_userSlots":"","isActive_userSlots":"","createdTime_userSlots":"","updatedTime_userSlots":"","uploadedFiels":{"keyname":"uploadedFileName"}}
+
+FieldType: [{"Type":"int(11)","fields":["userSlotId","userId","fee","maxAllocation","availableAllocation"]},{"Type":"varchar(45)","fields":["name"]},{"Type":"datetime","fields":["date","createdTime","updatedTime"]},{"Type":"time","fields":["time"]},{"Type":"tinyint(1)","fields":["isActive"]}]
+
+NotNullFields: ["userSlotId_userSlots","userId_userSlots","fee_userSlots","date_userSlots","time_userSlots","maxAllocation_userSlots","availableAllocation_userSlots","isActive_userSlots"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/Update_userSlots/'
+Method:'put'
+Data: {"userSlotId_userSlots":"","userId_userSlots":"","fee_userSlots":"","name_userSlots":"","date_userSlots":"","time_userSlots":"","maxAllocation_userSlots":"","availableAllocation_userSlots":"","isActive_userSlots":"","createdTime_userSlots":"","updatedTime_userSlots":""}
+
+FieldType: [{"Type":"int(11)","fields":["userSlotId","userId","fee","maxAllocation","availableAllocation"]},{"Type":"varchar(45)","fields":["name"]},{"Type":"datetime","fields":["date","createdTime","updatedTime"]},{"Type":"time","fields":["time"]},{"Type":"tinyint(1)","fields":["isActive"]}]
+
+NotNullFields: ["userSlotId_userSlots","userId_userSlots","fee_userSlots","date_userSlots","time_userSlots","maxAllocation_userSlots","availableAllocation_userSlots","isActive_userSlots"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/DeleteFile_userSlots/'
+Method:'put'
+Data: {"userSlotId_userSlots":"","userId_userSlots":"","fee_userSlots":"","name_userSlots":"","date_userSlots":"","time_userSlots":"","maxAllocation_userSlots":"","availableAllocation_userSlots":"","isActive_userSlots":"","createdTime_userSlots":"","updatedTime_userSlots":""}
+
+FieldType: [{"Type":"int(11)","fields":["userSlotId","userId","fee","maxAllocation","availableAllocation"]},{"Type":"varchar(45)","fields":["name"]},{"Type":"datetime","fields":["date","createdTime","updatedTime"]},{"Type":"time","fields":["time"]},{"Type":"tinyint(1)","fields":["isActive"]}]
+
+NotNullFields: ["userSlotId_userSlots","userId_userSlots","fee_userSlots","date_userSlots","time_userSlots","maxAllocation_userSlots","availableAllocation_userSlots","isActive_userSlots"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/SelectAll_userSlots/'
+Method:'get'
+Data: "Not Require"
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/SelectAllWithParent_userSlots/'
+Method:'get'
+Data: "Not Require"
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/SelectAllWithChild_userSlots/'
+Method:'get'
+Data: "Not Require"
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/SelectAllWithChildAndParent_userSlots/'
+Method:'get'
+Data: "Not Require"
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/SelectCondition_userSlots/'
+Method:'post'
+Data: {"userSlotId_userSlots":"","userId_userSlots":"","fee_userSlots":"","name_userSlots":"","date_userSlots":"","time_userSlots":"","maxAllocation_userSlots":"","availableAllocation_userSlots":"","isActive_userSlots":"","createdTime_userSlots":"","updatedTime_userSlots":""}
+
+FieldType: [{"Type":"int(11)","fields":["userSlotId","userId","fee","maxAllocation","availableAllocation"]},{"Type":"varchar(45)","fields":["name"]},{"Type":"datetime","fields":["date","createdTime","updatedTime"]},{"Type":"time","fields":["time"]},{"Type":"tinyint(1)","fields":["isActive"]}]
+
+NotNullFields: ["userSlotId_userSlots","userId_userSlots","fee_userSlots","date_userSlots","time_userSlots","maxAllocation_userSlots","availableAllocation_userSlots","isActive_userSlots"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/SelectConditionWithParent_userSlots/'
+Method:'post'
+Data: {"userSlotId_userSlots":"","userId_userSlots":"","fee_userSlots":"","name_userSlots":"","date_userSlots":"","time_userSlots":"","maxAllocation_userSlots":"","availableAllocation_userSlots":"","isActive_userSlots":"","createdTime_userSlots":"","updatedTime_userSlots":""}
+
+FieldType: [{"Type":"int(11)","fields":["userSlotId","userId","fee","maxAllocation","availableAllocation"]},{"Type":"varchar(45)","fields":["name"]},{"Type":"datetime","fields":["date","createdTime","updatedTime"]},{"Type":"time","fields":["time"]},{"Type":"tinyint(1)","fields":["isActive"]}]
+
+NotNullFields: ["userSlotId_userSlots","userId_userSlots","fee_userSlots","date_userSlots","time_userSlots","maxAllocation_userSlots","availableAllocation_userSlots","isActive_userSlots"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/SelectConditionWithChild_userSlots/'
+Method:'post'
+Data: {"userSlotId_userSlots":"","userId_userSlots":"","fee_userSlots":"","name_userSlots":"","date_userSlots":"","time_userSlots":"","maxAllocation_userSlots":"","availableAllocation_userSlots":"","isActive_userSlots":"","createdTime_userSlots":"","updatedTime_userSlots":""}
+
+FieldType: [{"Type":"int(11)","fields":["userSlotId","userId","fee","maxAllocation","availableAllocation"]},{"Type":"varchar(45)","fields":["name"]},{"Type":"datetime","fields":["date","createdTime","updatedTime"]},{"Type":"time","fields":["time"]},{"Type":"tinyint(1)","fields":["isActive"]}]
+
+NotNullFields: ["userSlotId_userSlots","userId_userSlots","fee_userSlots","date_userSlots","time_userSlots","maxAllocation_userSlots","availableAllocation_userSlots","isActive_userSlots"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/SelectConditionWithChildAndParent_userSlots/'
+Method:'post'
+Data: {"userSlotId_userSlots":"","userId_userSlots":"","fee_userSlots":"","name_userSlots":"","date_userSlots":"","time_userSlots":"","maxAllocation_userSlots":"","availableAllocation_userSlots":"","isActive_userSlots":"","createdTime_userSlots":"","updatedTime_userSlots":""}
+
+FieldType: [{"Type":"int(11)","fields":["userSlotId","userId","fee","maxAllocation","availableAllocation"]},{"Type":"varchar(45)","fields":["name"]},{"Type":"datetime","fields":["date","createdTime","updatedTime"]},{"Type":"time","fields":["time"]},{"Type":"tinyint(1)","fields":["isActive"]}]
+
+NotNullFields: ["userSlotId_userSlots","userId_userSlots","fee_userSlots","date_userSlots","time_userSlots","maxAllocation_userSlots","availableAllocation_userSlots","isActive_userSlots"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/Get_userSlots_Requirements/'
+Method:'get'
+Data: "Not Require"
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/DownloadXL_userSlots/'
+Method:'get'
+Data: "Not Require"
+
+******************************** userTypes API's ******************************** 
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/DirectInsert_userTypes/'
+Method:'post'
+Data: {"userTypeId_userTypes":"","userType_userTypes":"","isActive_userTypes":"","createdTime_userTypes":"","updatedTime_userTypes":""}
+
+FieldType: [{"Type":"int(11)","fields":["userTypeId"]},{"Type":"varchar(45)","fields":["userType"]},{"Type":"tinyint(1)","fields":["isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["userTypeId_userTypes","userType_userTypes","isActive_userTypes"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/InsertWithParent_userTypes/'
+Method:'post'
+Data: {"userTypeId_userTypes":"","userType_userTypes":"","isActive_userTypes":"","createdTime_userTypes":"","updatedTime_userTypes":""}
+
+FieldType: [{"Type":"int(11)","fields":["userTypeId"]},{"Type":"varchar(45)","fields":["userType"]},{"Type":"tinyint(1)","fields":["isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["userTypeId_userTypes","userType_userTypes","isActive_userTypes"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/Upload_userTypes/'
+Method:'post'
+Data: {"userTypeId_userTypes":"","userType_userTypes":"","isActive_userTypes":"","createdTime_userTypes":"","updatedTime_userTypes":"","uploadedFiels":{"keyname":"uploadedFileName"}}
+
+FieldType: [{"Type":"int(11)","fields":["userTypeId"]},{"Type":"varchar(45)","fields":["userType"]},{"Type":"tinyint(1)","fields":["isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["userTypeId_userTypes","userType_userTypes","isActive_userTypes"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/UpdateFile_userTypes/'
+Method:'post'
+Data: {"userTypeId_userTypes":"","userType_userTypes":"","isActive_userTypes":"","createdTime_userTypes":"","updatedTime_userTypes":"","uploadedFiels":{"keyname":"uploadedFileName"}}
+
+FieldType: [{"Type":"int(11)","fields":["userTypeId"]},{"Type":"varchar(45)","fields":["userType"]},{"Type":"tinyint(1)","fields":["isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["userTypeId_userTypes","userType_userTypes","isActive_userTypes"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/Update_userTypes/'
+Method:'put'
+Data: {"userTypeId_userTypes":"","userType_userTypes":"","isActive_userTypes":"","createdTime_userTypes":"","updatedTime_userTypes":""}
+
+FieldType: [{"Type":"int(11)","fields":["userTypeId"]},{"Type":"varchar(45)","fields":["userType"]},{"Type":"tinyint(1)","fields":["isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["userTypeId_userTypes","userType_userTypes","isActive_userTypes"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/DeleteFile_userTypes/'
+Method:'put'
+Data: {"userTypeId_userTypes":"","userType_userTypes":"","isActive_userTypes":"","createdTime_userTypes":"","updatedTime_userTypes":""}
+
+FieldType: [{"Type":"int(11)","fields":["userTypeId"]},{"Type":"varchar(45)","fields":["userType"]},{"Type":"tinyint(1)","fields":["isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["userTypeId_userTypes","userType_userTypes","isActive_userTypes"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/SelectAll_userTypes/'
+Method:'get'
+Data: "Not Require"
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/SelectAllWithParent_userTypes/'
+Method:'get'
+Data: "Not Require"
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/SelectAllWithChild_userTypes/'
+Method:'get'
+Data: "Not Require"
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/SelectAllWithChildAndParent_userTypes/'
+Method:'get'
+Data: "Not Require"
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/SelectCondition_userTypes/'
+Method:'post'
+Data: {"userTypeId_userTypes":"","userType_userTypes":"","isActive_userTypes":"","createdTime_userTypes":"","updatedTime_userTypes":""}
+
+FieldType: [{"Type":"int(11)","fields":["userTypeId"]},{"Type":"varchar(45)","fields":["userType"]},{"Type":"tinyint(1)","fields":["isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["userTypeId_userTypes","userType_userTypes","isActive_userTypes"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/SelectConditionWithParent_userTypes/'
+Method:'post'
+Data: {"userTypeId_userTypes":"","userType_userTypes":"","isActive_userTypes":"","createdTime_userTypes":"","updatedTime_userTypes":""}
+
+FieldType: [{"Type":"int(11)","fields":["userTypeId"]},{"Type":"varchar(45)","fields":["userType"]},{"Type":"tinyint(1)","fields":["isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["userTypeId_userTypes","userType_userTypes","isActive_userTypes"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/SelectConditionWithChild_userTypes/'
+Method:'post'
+Data: {"userTypeId_userTypes":"","userType_userTypes":"","isActive_userTypes":"","createdTime_userTypes":"","updatedTime_userTypes":""}
+
+FieldType: [{"Type":"int(11)","fields":["userTypeId"]},{"Type":"varchar(45)","fields":["userType"]},{"Type":"tinyint(1)","fields":["isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["userTypeId_userTypes","userType_userTypes","isActive_userTypes"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/SelectConditionWithChildAndParent_userTypes/'
+Method:'post'
+Data: {"userTypeId_userTypes":"","userType_userTypes":"","isActive_userTypes":"","createdTime_userTypes":"","updatedTime_userTypes":""}
+
+FieldType: [{"Type":"int(11)","fields":["userTypeId"]},{"Type":"varchar(45)","fields":["userType"]},{"Type":"tinyint(1)","fields":["isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["userTypeId_userTypes","userType_userTypes","isActive_userTypes"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/Get_userTypes_Requirements/'
+Method:'get'
+Data: "Not Require"
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/DownloadXL_userTypes/'
+Method:'get'
+Data: "Not Require"
+
+******************************** userVerificationDocuments API's ******************************** 
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/DirectInsert_userVerificationDocuments/'
+Method:'post'
+Data: {"userVerificationDocumentId_userVerificationDocuments":"","userId_userVerificationDocuments":"","documentType_userVerificationDocuments":"","documentPath_userVerificationDocuments":"","isVerified_userVerificationDocuments":"","isActive_userVerificationDocuments":"","createdTime_userVerificationDocuments":"","updatedTime_userVerificationDocuments":""}
+
+FieldType: [{"Type":"int(11)","fields":["userVerificationDocumentId","userId"]},{"Type":"varchar(45)","fields":["documentType"]},{"Type":"text","fields":["documentPath"]},{"Type":"tinyint(1)","fields":["isVerified","isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["userVerificationDocumentId_userVerificationDocuments","userId_userVerificationDocuments","documentType_userVerificationDocuments","documentPath_userVerificationDocuments","isVerified_userVerificationDocuments","isActive_userVerificationDocuments"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/InsertWithParent_userVerificationDocuments/'
+Method:'post'
+Data: {"userVerificationDocumentId_userVerificationDocuments":"","userId_userVerificationDocuments":"","documentType_userVerificationDocuments":"","documentPath_userVerificationDocuments":"","isVerified_userVerificationDocuments":"","isActive_userVerificationDocuments":"","createdTime_userVerificationDocuments":"","updatedTime_userVerificationDocuments":""}
+
+FieldType: [{"Type":"int(11)","fields":["userVerificationDocumentId","userId"]},{"Type":"varchar(45)","fields":["documentType"]},{"Type":"text","fields":["documentPath"]},{"Type":"tinyint(1)","fields":["isVerified","isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["userVerificationDocumentId_userVerificationDocuments","userId_userVerificationDocuments","documentType_userVerificationDocuments","documentPath_userVerificationDocuments","isVerified_userVerificationDocuments","isActive_userVerificationDocuments"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/Upload_userVerificationDocuments/'
+Method:'post'
+Data: {"userVerificationDocumentId_userVerificationDocuments":"","userId_userVerificationDocuments":"","documentType_userVerificationDocuments":"","documentPath_userVerificationDocuments":"","isVerified_userVerificationDocuments":"","isActive_userVerificationDocuments":"","createdTime_userVerificationDocuments":"","updatedTime_userVerificationDocuments":"","uploadedFiels":{"keyname":"uploadedFileName"}}
+
+FieldType: [{"Type":"int(11)","fields":["userVerificationDocumentId","userId"]},{"Type":"varchar(45)","fields":["documentType"]},{"Type":"text","fields":["documentPath"]},{"Type":"tinyint(1)","fields":["isVerified","isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["userVerificationDocumentId_userVerificationDocuments","userId_userVerificationDocuments","documentType_userVerificationDocuments","documentPath_userVerificationDocuments","isVerified_userVerificationDocuments","isActive_userVerificationDocuments"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/UpdateFile_userVerificationDocuments/'
+Method:'post'
+Data: {"userVerificationDocumentId_userVerificationDocuments":"","userId_userVerificationDocuments":"","documentType_userVerificationDocuments":"","documentPath_userVerificationDocuments":"","isVerified_userVerificationDocuments":"","isActive_userVerificationDocuments":"","createdTime_userVerificationDocuments":"","updatedTime_userVerificationDocuments":"","uploadedFiels":{"keyname":"uploadedFileName"}}
+
+FieldType: [{"Type":"int(11)","fields":["userVerificationDocumentId","userId"]},{"Type":"varchar(45)","fields":["documentType"]},{"Type":"text","fields":["documentPath"]},{"Type":"tinyint(1)","fields":["isVerified","isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["userVerificationDocumentId_userVerificationDocuments","userId_userVerificationDocuments","documentType_userVerificationDocuments","documentPath_userVerificationDocuments","isVerified_userVerificationDocuments","isActive_userVerificationDocuments"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/Update_userVerificationDocuments/'
+Method:'put'
+Data: {"userVerificationDocumentId_userVerificationDocuments":"","userId_userVerificationDocuments":"","documentType_userVerificationDocuments":"","documentPath_userVerificationDocuments":"","isVerified_userVerificationDocuments":"","isActive_userVerificationDocuments":"","createdTime_userVerificationDocuments":"","updatedTime_userVerificationDocuments":""}
+
+FieldType: [{"Type":"int(11)","fields":["userVerificationDocumentId","userId"]},{"Type":"varchar(45)","fields":["documentType"]},{"Type":"text","fields":["documentPath"]},{"Type":"tinyint(1)","fields":["isVerified","isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["userVerificationDocumentId_userVerificationDocuments","userId_userVerificationDocuments","documentType_userVerificationDocuments","documentPath_userVerificationDocuments","isVerified_userVerificationDocuments","isActive_userVerificationDocuments"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/DeleteFile_userVerificationDocuments/'
+Method:'put'
+Data: {"userVerificationDocumentId_userVerificationDocuments":"","userId_userVerificationDocuments":"","documentType_userVerificationDocuments":"","documentPath_userVerificationDocuments":"","isVerified_userVerificationDocuments":"","isActive_userVerificationDocuments":"","createdTime_userVerificationDocuments":"","updatedTime_userVerificationDocuments":""}
+
+FieldType: [{"Type":"int(11)","fields":["userVerificationDocumentId","userId"]},{"Type":"varchar(45)","fields":["documentType"]},{"Type":"text","fields":["documentPath"]},{"Type":"tinyint(1)","fields":["isVerified","isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["userVerificationDocumentId_userVerificationDocuments","userId_userVerificationDocuments","documentType_userVerificationDocuments","documentPath_userVerificationDocuments","isVerified_userVerificationDocuments","isActive_userVerificationDocuments"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/SelectAll_userVerificationDocuments/'
+Method:'get'
+Data: "Not Require"
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/SelectAllWithParent_userVerificationDocuments/'
+Method:'get'
+Data: "Not Require"
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/SelectAllWithChild_userVerificationDocuments/'
+Method:'get'
+Data: "Not Require"
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/SelectAllWithChildAndParent_userVerificationDocuments/'
+Method:'get'
+Data: "Not Require"
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/SelectCondition_userVerificationDocuments/'
+Method:'post'
+Data: {"userVerificationDocumentId_userVerificationDocuments":"","userId_userVerificationDocuments":"","documentType_userVerificationDocuments":"","documentPath_userVerificationDocuments":"","isVerified_userVerificationDocuments":"","isActive_userVerificationDocuments":"","createdTime_userVerificationDocuments":"","updatedTime_userVerificationDocuments":""}
+
+FieldType: [{"Type":"int(11)","fields":["userVerificationDocumentId","userId"]},{"Type":"varchar(45)","fields":["documentType"]},{"Type":"text","fields":["documentPath"]},{"Type":"tinyint(1)","fields":["isVerified","isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["userVerificationDocumentId_userVerificationDocuments","userId_userVerificationDocuments","documentType_userVerificationDocuments","documentPath_userVerificationDocuments","isVerified_userVerificationDocuments","isActive_userVerificationDocuments"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/SelectConditionWithParent_userVerificationDocuments/'
+Method:'post'
+Data: {"userVerificationDocumentId_userVerificationDocuments":"","userId_userVerificationDocuments":"","documentType_userVerificationDocuments":"","documentPath_userVerificationDocuments":"","isVerified_userVerificationDocuments":"","isActive_userVerificationDocuments":"","createdTime_userVerificationDocuments":"","updatedTime_userVerificationDocuments":""}
+
+FieldType: [{"Type":"int(11)","fields":["userVerificationDocumentId","userId"]},{"Type":"varchar(45)","fields":["documentType"]},{"Type":"text","fields":["documentPath"]},{"Type":"tinyint(1)","fields":["isVerified","isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["userVerificationDocumentId_userVerificationDocuments","userId_userVerificationDocuments","documentType_userVerificationDocuments","documentPath_userVerificationDocuments","isVerified_userVerificationDocuments","isActive_userVerificationDocuments"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/SelectConditionWithChild_userVerificationDocuments/'
+Method:'post'
+Data: {"userVerificationDocumentId_userVerificationDocuments":"","userId_userVerificationDocuments":"","documentType_userVerificationDocuments":"","documentPath_userVerificationDocuments":"","isVerified_userVerificationDocuments":"","isActive_userVerificationDocuments":"","createdTime_userVerificationDocuments":"","updatedTime_userVerificationDocuments":""}
+
+FieldType: [{"Type":"int(11)","fields":["userVerificationDocumentId","userId"]},{"Type":"varchar(45)","fields":["documentType"]},{"Type":"text","fields":["documentPath"]},{"Type":"tinyint(1)","fields":["isVerified","isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["userVerificationDocumentId_userVerificationDocuments","userId_userVerificationDocuments","documentType_userVerificationDocuments","documentPath_userVerificationDocuments","isVerified_userVerificationDocuments","isActive_userVerificationDocuments"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/SelectConditionWithChildAndParent_userVerificationDocuments/'
+Method:'post'
+Data: {"userVerificationDocumentId_userVerificationDocuments":"","userId_userVerificationDocuments":"","documentType_userVerificationDocuments":"","documentPath_userVerificationDocuments":"","isVerified_userVerificationDocuments":"","isActive_userVerificationDocuments":"","createdTime_userVerificationDocuments":"","updatedTime_userVerificationDocuments":""}
+
+FieldType: [{"Type":"int(11)","fields":["userVerificationDocumentId","userId"]},{"Type":"varchar(45)","fields":["documentType"]},{"Type":"text","fields":["documentPath"]},{"Type":"tinyint(1)","fields":["isVerified","isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["userVerificationDocumentId_userVerificationDocuments","userId_userVerificationDocuments","documentType_userVerificationDocuments","documentPath_userVerificationDocuments","isVerified_userVerificationDocuments","isActive_userVerificationDocuments"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/Get_userVerificationDocuments_Requirements/'
+Method:'get'
+Data: "Not Require"
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/DownloadXL_userVerificationDocuments/'
+Method:'get'
+Data: "Not Require"
+
+******************************** users API's ******************************** 
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/DirectInsert_users/'
+Method:'post'
+Data: {"userId_users":"","userTypeId_users":"","name_users":"","email_users":"","mobileNumber_users":"","password_users":"","isActive_users":"","createdTime_users":"","updatedTime_users":""}
+
+FieldType: [{"Type":"int(11)","fields":["userId","userTypeId"]},{"Type":"varchar(60)","fields":["name"]},{"Type":"varchar(100)","fields":["email"]},{"Type":"varchar(18)","fields":["mobileNumber"]},{"Type":"text","fields":["password"]},{"Type":"tinyint(1)","fields":["isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["userId_users","userTypeId_users","name_users","email_users","mobileNumber_users","password_users","isActive_users"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/InsertWithParent_users/'
+Method:'post'
+Data: {"userId_users":"","userTypeId_users":"","name_users":"","email_users":"","mobileNumber_users":"","password_users":"","isActive_users":"","createdTime_users":"","updatedTime_users":""}
+
+FieldType: [{"Type":"int(11)","fields":["userId","userTypeId"]},{"Type":"varchar(60)","fields":["name"]},{"Type":"varchar(100)","fields":["email"]},{"Type":"varchar(18)","fields":["mobileNumber"]},{"Type":"text","fields":["password"]},{"Type":"tinyint(1)","fields":["isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["userId_users","userTypeId_users","name_users","email_users","mobileNumber_users","password_users","isActive_users"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/Upload_users/'
+Method:'post'
+Data: {"userId_users":"","userTypeId_users":"","name_users":"","email_users":"","mobileNumber_users":"","password_users":"","isActive_users":"","createdTime_users":"","updatedTime_users":"","uploadedFiels":{"keyname":"uploadedFileName"}}
+
+FieldType: [{"Type":"int(11)","fields":["userId","userTypeId"]},{"Type":"varchar(60)","fields":["name"]},{"Type":"varchar(100)","fields":["email"]},{"Type":"varchar(18)","fields":["mobileNumber"]},{"Type":"text","fields":["password"]},{"Type":"tinyint(1)","fields":["isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["userId_users","userTypeId_users","name_users","email_users","mobileNumber_users","password_users","isActive_users"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/UpdateFile_users/'
+Method:'post'
+Data: {"userId_users":"","userTypeId_users":"","name_users":"","email_users":"","mobileNumber_users":"","password_users":"","isActive_users":"","createdTime_users":"","updatedTime_users":"","uploadedFiels":{"keyname":"uploadedFileName"}}
+
+FieldType: [{"Type":"int(11)","fields":["userId","userTypeId"]},{"Type":"varchar(60)","fields":["name"]},{"Type":"varchar(100)","fields":["email"]},{"Type":"varchar(18)","fields":["mobileNumber"]},{"Type":"text","fields":["password"]},{"Type":"tinyint(1)","fields":["isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["userId_users","userTypeId_users","name_users","email_users","mobileNumber_users","password_users","isActive_users"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/Update_users/'
+Method:'put'
+Data: {"userId_users":"","userTypeId_users":"","name_users":"","email_users":"","mobileNumber_users":"","password_users":"","isActive_users":"","createdTime_users":"","updatedTime_users":""}
+
+FieldType: [{"Type":"int(11)","fields":["userId","userTypeId"]},{"Type":"varchar(60)","fields":["name"]},{"Type":"varchar(100)","fields":["email"]},{"Type":"varchar(18)","fields":["mobileNumber"]},{"Type":"text","fields":["password"]},{"Type":"tinyint(1)","fields":["isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["userId_users","userTypeId_users","name_users","email_users","mobileNumber_users","password_users","isActive_users"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/DeleteFile_users/'
+Method:'put'
+Data: {"userId_users":"","userTypeId_users":"","name_users":"","email_users":"","mobileNumber_users":"","password_users":"","isActive_users":"","createdTime_users":"","updatedTime_users":""}
+
+FieldType: [{"Type":"int(11)","fields":["userId","userTypeId"]},{"Type":"varchar(60)","fields":["name"]},{"Type":"varchar(100)","fields":["email"]},{"Type":"varchar(18)","fields":["mobileNumber"]},{"Type":"text","fields":["password"]},{"Type":"tinyint(1)","fields":["isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["userId_users","userTypeId_users","name_users","email_users","mobileNumber_users","password_users","isActive_users"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/SelectAll_users/'
+Method:'get'
+Data: "Not Require"
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/SelectAllWithParent_users/'
+Method:'get'
+Data: "Not Require"
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/SelectAllWithChild_users/'
+Method:'get'
+Data: "Not Require"
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/SelectAllWithChildAndParent_users/'
+Method:'get'
+Data: "Not Require"
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/SelectCondition_users/'
+Method:'post'
+Data: {"userId_users":"","userTypeId_users":"","name_users":"","email_users":"","mobileNumber_users":"","password_users":"","isActive_users":"","createdTime_users":"","updatedTime_users":""}
+
+FieldType: [{"Type":"int(11)","fields":["userId","userTypeId"]},{"Type":"varchar(60)","fields":["name"]},{"Type":"varchar(100)","fields":["email"]},{"Type":"varchar(18)","fields":["mobileNumber"]},{"Type":"text","fields":["password"]},{"Type":"tinyint(1)","fields":["isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["userId_users","userTypeId_users","name_users","email_users","mobileNumber_users","password_users","isActive_users"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/SelectConditionWithParent_users/'
+Method:'post'
+Data: {"userId_users":"","userTypeId_users":"","name_users":"","email_users":"","mobileNumber_users":"","password_users":"","isActive_users":"","createdTime_users":"","updatedTime_users":""}
+
+FieldType: [{"Type":"int(11)","fields":["userId","userTypeId"]},{"Type":"varchar(60)","fields":["name"]},{"Type":"varchar(100)","fields":["email"]},{"Type":"varchar(18)","fields":["mobileNumber"]},{"Type":"text","fields":["password"]},{"Type":"tinyint(1)","fields":["isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["userId_users","userTypeId_users","name_users","email_users","mobileNumber_users","password_users","isActive_users"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/SelectConditionWithChild_users/'
+Method:'post'
+Data: {"userId_users":"","userTypeId_users":"","name_users":"","email_users":"","mobileNumber_users":"","password_users":"","isActive_users":"","createdTime_users":"","updatedTime_users":""}
+
+FieldType: [{"Type":"int(11)","fields":["userId","userTypeId"]},{"Type":"varchar(60)","fields":["name"]},{"Type":"varchar(100)","fields":["email"]},{"Type":"varchar(18)","fields":["mobileNumber"]},{"Type":"text","fields":["password"]},{"Type":"tinyint(1)","fields":["isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["userId_users","userTypeId_users","name_users","email_users","mobileNumber_users","password_users","isActive_users"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/SelectConditionWithChildAndParent_users/'
+Method:'post'
+Data: {"userId_users":"","userTypeId_users":"","name_users":"","email_users":"","mobileNumber_users":"","password_users":"","isActive_users":"","createdTime_users":"","updatedTime_users":""}
+
+FieldType: [{"Type":"int(11)","fields":["userId","userTypeId"]},{"Type":"varchar(60)","fields":["name"]},{"Type":"varchar(100)","fields":["email"]},{"Type":"varchar(18)","fields":["mobileNumber"]},{"Type":"text","fields":["password"]},{"Type":"tinyint(1)","fields":["isActive"]},{"Type":"datetime","fields":["createdTime","updatedTime"]}]
+
+NotNullFields: ["userId_users","userTypeId_users","name_users","email_users","mobileNumber_users","password_users","isActive_users"]
+
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/Get_users_Requirements/'
+Method:'get'
+Data: "Not Require"
+
+
+
+
+URL:' http://192.168.0.101:3007/RestApi/v1/DownloadXL_users/'
+Method:'get'
+Data: "Not Require"
+
